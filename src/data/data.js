@@ -497,7 +497,24 @@ Highlight Points:<br><br>
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
-    highlight: false
+    highlight: false,
+    popupContent:`
+    Tech Debates (Game) is an intellectually stimulating and engaging event that encourages participants to debate on various topics related to technology, innovation, and emerging trends. Participants are divided into teams and assigned specific debate topics or propositions that they must argue for or against. The event is structured as a series of rounds, with teams presenting their arguments, counterarguments, and rebuttals in a competitive yet respectful manner.<br>
+    <strong>Critical Thinking and Persuasive Communication:</strong><br>
+Tech Debates challenge participants to think critically, analyze complex issues, and articulate their perspectives convincingly. Participants must develop coherent arguments supported by evidence, logic, and reasoning to persuade the audience and win the debate.<br><br>
+
+<strong>Exploration of Technology Trends:</strong><br>
+The debate topics cover a wide range of technology-related issues, including ethical considerations, societal impacts, future trends, and industry developments. Through engaging in debates, participants gain insights into diverse viewpoints and deepen their understanding of complex technological issues.<br><br>
+
+<strong>Collaboration and Teamwork:</strong><br>
+Participants collaborate closely within their teams to research, strategize, and prepare arguments for the debate topics. Teamwork fosters communication, coordination, and division of responsibilities, allowing participants to leverage each other's strengths and expertise.<br><br>
+
+<strong>Audience Engagement and Interaction:</strong><br>
+Tech Debates encourage audience participation, with spectators posing questions, offering feedback, and voting on the performance of the debating teams. This interactive element adds excitement and dynamism to the event, fostering a sense of community and involvement among participants and spectators alike.<br><br>
+
+<strong>Development of Soft Skills:</strong><br>
+Engaging in debates helps participants develop essential soft skills such as public speaking, critical thinking, persuasion, and teamwork. These skills are valuable in various professional contexts, including presentations, negotiations, and collaborative projects, enhancing participants' overall employability and career readiness.
+`
   },
   '16': {
     id: '16',
@@ -571,14 +588,30 @@ Highlight Points:<br><br>
   },
   '19': {
     id: '19',
-    title: 'UI Design',
+    title: 'UI Design with Figma',
     figureSrc: '/media/events/dj.jpeg',
     day: 0,
     
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
-    highlight: false
+    highlight: false,
+    popupContent:`<strong>Description:</strong><br>
+    The <strong>UI/UX Design with Figma</strong> event offers participants an opportunity to showcase their creativity and design skills in creating user interfaces and experiences using the Figma design tool. Figma is a collaborative interface design tool that enables designers to create, prototype, and collaborate on designs in real-time.<br><br>
+    
+    <strong>Highlight Points:</strong><br>
+    1. <strong>Interface Design Creativity:</strong> Participants are challenged to unleash their creativity and design prowess to create visually appealing and user-friendly interfaces for web or mobile applications. They must consider factors such as layout, color scheme, typography, and iconography to craft compelling user interfaces.<br><br>
+    
+    2. <strong>User Experience (UX) Considerations:</strong> In addition to aesthetics, participants must focus on user experience design, ensuring that the interfaces they design are intuitive, easy to navigate, and aligned with user needs and expectations. This involves conducting user research, creating user personas, and mapping user journeys to inform design decisions.<br><br>
+    
+    3. <strong>Figma Proficiency:</strong> The event showcases participants' proficiency in using the Figma design tool to create and prototype designs. Participants must demonstrate their ability to leverage Figma's features and functionalities effectively, including artboards, layers, components, and collaboration tools.<br><br>
+    
+    4. <strong>Collaboration and Iteration:</strong> Figma's collaborative features allow participants to work together in teams or with stakeholders to iterate on designs in real-time. Participants can gather feedback, make revisions, and refine their designs collaboratively, fostering a culture of continuous improvement and iteration.<br><br>
+    
+    5. <strong>Presentation and Pitching Skills:</strong> Participants must effectively present and pitch their designs to a panel of judges or peers. They must articulate their design decisions, justify their choices, and communicate the rationale behind their designs effectively.<br><br>
+    
+    6. <strong>Industry Relevance and Career Opportunities:</strong> UI/UX design skills are highly sought after in the technology industry, and participation in the UI/UX Design with Figma event provides participants with valuable experience and portfolio pieces that can enhance their resumes and career prospects in the field of design and technology.
+    `
   },
   '20': {
     id: '20',
