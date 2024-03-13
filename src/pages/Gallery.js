@@ -63,7 +63,7 @@ const Gallery = ({ user }) => {
             <p>21<sup>st</sup> March</p>
           </div>
           <div className='Video'>
-            <Video embedId={"GR0pWB727bw?si=CvKIG3TJPC9ZzzJ0"} />
+            <Video embedId={"lzpBQ1SjY4o?si=AEbAN0858K-YS1Y_"} />
           </div>
 
 
@@ -78,7 +78,7 @@ const Gallery = ({ user }) => {
           </div>
           <div className='Video'>
 
-            <Video embedId={'xwGDkyz_LgI'} />
+            <Video embedId={'lzpBQ1SjY4o?si=eVCTycCG9v39dbxR'} />
           </div>
         </div>
         <br />
