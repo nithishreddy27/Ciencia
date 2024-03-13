@@ -124,7 +124,7 @@ export const events = {
     id: '3',
     slotId: '1',
     title: 'Paper Presentation',
-    figureSrc: '/media/events/quiz.jpg',
+    figureSrc: '/media/paper_presentation.jpg',
     day: 0,
  
     venue: 'To be Decided',
