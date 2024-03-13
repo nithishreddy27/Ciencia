@@ -116,7 +116,17 @@ const ScheduleNavBtn = ({ day, currentDay, handleDayChange, label }) => (
   </li>
 )
 
-const EventLI = ({ id, title, type, isRegistrationOpen, venue, time, handleHover, registrationLink }) => {
+const EventLI = ({ id, title, isRegistrationOpen, venue, time, handleHover, registrationLink , KnowMoreLink }) => {
+
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleKnowMoreClick = () => {
+    setShowPopup(true);
+  };
+
+  const handleClosePopup = () => {
+    setShowPopup(false);
+  };
   return (
     <li className={cx(styles['event-li'])}>
       <article className={styles['event-li-inner']}
@@ -131,13 +141,19 @@ const EventLI = ({ id, title, type, isRegistrationOpen, venue, time, handleHover
           )}
           <h4>{time}</h4>
         </div>
-        <div className={styles.venue}>
-          <p>{venue}</p>
-        </div>
+       
         <div className={styles.time}>
           <p>{title}</p>
         </div>
       </article>
+      {showPopup && (
+        <div className={styles.popup}>
+          <div className={styles.popupContent}>
+            <button onClick={handleClosePopup}>Close</button>
+            <p>This is the popup content for event {title}.</p>
+          </div>
+        </div>
+      )}
     </li>
   )
 }

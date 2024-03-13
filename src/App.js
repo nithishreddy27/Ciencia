@@ -2,11 +2,13 @@ import React, { useEffect, useState } from "react";
 import Layout from "./layouts/Layout";
 import "./styles/index.scss";
 import Alert from "./components/Alert";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import { auth } from "./config/config-dev";
 // import { auth } from "./config/config-prod";
 import { useAuthStatus } from "./hooks/hooks";
 import AnimatedRoutes from "./pages/AnimatedRoutes";
+import KnowMorePage from "./pages/KnowMore";
 
 function App() {
   const { checkingStatus, authUser, updateAuthUserAttr } = useAuthStatus();
@@ -35,7 +37,7 @@ function App() {
     }, 5000);
   }, [alertMsg]);
 
-  return (
+  return (<>
     <Layout user={authUser}>
       <Alert message={alertMsg} severity={alertSeverity} />
       <AnimatedRoutes
@@ -44,7 +46,8 @@ function App() {
         updateAuthUserAttr={updateAuthUserAttr}
         checkingStatus={checkingStatus}
       />
-    </Layout>
+    </Layout>  
+    </>
   );
 }
 

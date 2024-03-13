@@ -37,42 +37,42 @@ export const coordinators = [
 export const mainCoordinators = [
   {
     name: 'Dr. M. Venkata Ramana',
-    imgSrc: '/media/coordinators/daknya.jpg',
+    imgSrc: 'https://i.ibb.co/FDrBTGX/koushik-anna-web.png',
     roles: ['Prof. & Head, Mech', 'Convener']
   },
   {
     name: 'Dr. S. Harivardhagini',
-    imgSrc: '/media/coordinators/pursottam.jpg',
+    imgSrc: 'https://i.ibb.co/z2bRppd/20240309-141645.jpg',
     roles: ['Prof. & Head, EIE', 'Co-Convener', 'Backend']
   },
   {
     name: 'Dr. K. Shashidhar Reddy',
-    imgSrc: '/media/coordinators/mekruk.jpg',
+    imgSrc: 'https://i.ibb.co/Lr3sgYt/20240309-114353.jpg',
     roles: ['Prof., EEE', 'Co-Convener']
   },
   {
     name: 'Dr. Bipin Bihari Jayasingh',
-    imgSrc: '/media/coordinators/tassam.jpg',
+    imgSrc: 'https://i.ibb.co/DCTyhXL/20240309-093853.jpg',
     roles: ['Prof. & Head, IT', 'Co-Convener']
   },
   {
     name: 'K. Roopesh Kumar Reddy',
-    imgSrc: '/media/coordinators/gamjum.jpg',
+    imgSrc: 'https://i.ibb.co/Fq8fs9C/20230223-091020-02-jpeg.jpg',
     roles: ['Convener']
   },
   {
     name: 'V. Harshith Reddy',
-    imgSrc: '/media/coordinators/joni.jpg',
+    imgSrc: 'https://i.ibb.co/Vxh7BTj/BT0-A9183-harshith-reddy.jpg',
     roles: ['Co-Convener']
   },
   {
     name: 'M. Jwalitha',
-    imgSrc: '/media/coordinators/rikto.jpg',
+    imgSrc: 'https://i.ibb.co/WcSX20X/IMG-0866-Mulamalla-Jwalitha.jpg',
     roles: ['Co-Convener']
   },
   {
     name: 'Fariahh Basha',
-    imgSrc: '/media/coordinators/talo.jpg',
+    imgSrc: 'https://i.ibb.co/c3QscCd/Beauty-Plus-Cam-20240224081220062-save-Fariahh.jpg',
     roles: ['Co-Convener']
   },
 ]
@@ -98,7 +98,7 @@ export const events = {
     figureSrc: '/media/events/traditional-dance.jpg',
     day: 0,
  
-    venue: 'To Be Decided',
+    venue: 'Know More',
     desc: '',
     type: 'Contest',
     highlight: false,
@@ -222,8 +222,7 @@ export const events = {
     slotId: '4',
     title: 'Circuit Debugging',
     figureSrc: '/media/events/sketch.jpg',
-    day: 0,
- 
+    day: 0, 
     venue: 'To Be Decided',
     desc: '',
     type: 'Contest',
