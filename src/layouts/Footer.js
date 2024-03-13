@@ -28,8 +28,8 @@ const Footer = () => {
             <ul className={styles.SocialHandles}>
               <li className={cx(styles['handle-wrapper'])}>
                 <a className={styles.handle} target='_blank' rel='noreferrer' href="https://www.linkedin.com/in/cvr-ciencia-8265152b7/ ">
-                  <svg role="presentation" aria-label="Facebook" aria-hidden="true">
-                    <use href="/media/icons/icons8-linkedin.svg"></use>
+                  <svg role="presentation" aria-label="Linkedin" aria-hidden="true">
+                    <use href="https://i.ibb.co/wcCf737/icons8-linkedin-120.png"></use>
                   </svg>
                 </a>
               </li>

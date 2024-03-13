@@ -116,8 +116,7 @@ const ScheduleNavBtn = ({ day, currentDay, handleDayChange, label }) => (
   </li>
 )
 
-const EventLI = ({ id, title, isRegistrationOpen, venue, time, handleHover, registrationLink , KnowMoreLink }) => {
-
+const EventLI = ({ id, title, isRegistrationOpen, venue, time, handleHover, registrationLink, KnowMoreLink, popupContent }) => {
   const [showPopup, setShowPopup] = useState(false);
 
   const handleKnowMoreClick = () => {
@@ -127,39 +126,46 @@ const EventLI = ({ id, title, isRegistrationOpen, venue, time, handleHover, regi
   const handleClosePopup = () => {
     setShowPopup(false);
   };
+
   return (
     <li className={cx(styles['event-li'])}>
-      <article className={styles['event-li-inner']}
-        onMouseOut={e => { handleHover(null) }}
-        onMouseOver={e => { handleHover(id) }}
+      <article
+        className={styles['event-li-inner']}
+        onMouseOut={(e) => {
+          handleHover(null);
+        }}
+        onMouseOver={(e) => {
+          handleHover(id);
+        }}
       >
         <div className={styles.title}>
           {isRegistrationOpen ? (
-            <a href={registrationLink} target="_blank" rel="noopener noreferrer" className={styles['registration-button']}>Register Now</a>
+            <a href={registrationLink} target="_blank" rel="noopener noreferrer" className={styles['registration-button']}>
+              Register Now
+            </a>
           ) : (
             <p>Registrations closed!</p>
           )}
           <h4>{time}</h4>
         </div>
-       
+
         <div className={styles.time}>
           <p>{title}</p>
+          <button onClick={handleKnowMoreClick}>Know More</button>
         </div>
       </article>
       {showPopup && (
-        <div className={styles.popup}>
-          <div className={styles.popupContent}>
-            <button onClick={handleClosePopup}>Close</button>
-            <p>This is the popup content for event {title}.</p>
+        <div className={styles['popup-overlay']}>
+          <div className={styles.popup}>
+            <button onClick={handleClosePopup} className={styles.closeButton}>Close</button>
+            <div dangerouslySetInnerHTML={{ __html: popupContent.replace(/<br>/g, '<br/>')}} />
+
           </div>
         </div>
       )}
     </li>
-  )
-}
-
-
-
+  );
+};
 
 const EventFigure = ({ id, title, figureSrc, isActive = false }) => (
   figureSrc && <article key={id}
