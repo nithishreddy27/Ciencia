@@ -189,6 +189,8 @@ Perks<br>
     day: 0,
  
     venue: 'To Be Decided',
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/TxY8kLssJnWQZGw28',
     desc: '',
     type: 'Event',
     highlight: false,
@@ -218,6 +220,8 @@ Perks<br>
     desc: '',
     type: 'Concert',
     highlight: false,
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/G5g9nLtV9C2pw3jC9',
     popupContent: `Description:<br><br>
 The <strong>Hackathon</strong> is an exhilarating 8-hour event that challenges students to harness their creativity, technical prowess, and collaborative spirit to tackle real-world problems or pursue innovative ideas. Participants form teams and dive headfirst into a whirlwind of coding, designing, and problem-solving as they race against the clock to develop functional prototypes or solutions. This high-energy environment fosters rapid ideation, experimentation, and iteration, culminating in the presentation of projects to a panel of judges and peers.<br><br>
 
@@ -242,10 +246,11 @@ Highlight Points:<br><br>
     day: 0,
   
     venue: 'To Be Decided',
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/7Uov4BqZmqK9zgkh7',
     desc: '',
     type: 'Contest',
     highlight: false,
-    isRegistrationOpen: false,
     solo: true,
     popupContent: `Description:<br><br>
 In the <strong>Shark Tank</strong> event, aspiring student entrepreneurs have the opportunity to pitch their startup ideas to a panel of judges, emulating the high-stakes environment of the popular television show. Participants must succinctly and persuasively present their business concepts, outlining the problem they aim to solve, their unique value proposition, market opportunity, and potential for growth. Judges provide feedback, ask probing questions, and may even offer investment opportunities to promising startups, creating a thrilling and immersive experience for all involved.<br><br>
@@ -274,7 +279,8 @@ Highlight Points:<br><br>
     desc: '',
     type: 'Contest',
     highlight: true,
-    isRegistrationOpen: false,
+    isRegistrationOpen: true,
+    registrationLink: 'https://docs.google.com/forms/d/12JPy-XWfUfamWiGSc_ls6Q-7fU9i8iS1hp6NYK9RXEc/edit?chromeless=1',
     solo: false,
     popupContent: `Description:<br><br>
 The Technical Quiz is an engaging and competitive event designed to test participants' knowledge, problem-solving abilities, and technical expertise across various domains. Participants compete individually or in teams to answer a series of challenging questions related to programming languages, algorithms, data structures, software development methodologies, and other technical topics. The quiz format may include multiple-choice questions, true/false statements, and coding challenges, providing a comprehensive assessment of participants' technical acumen and critical thinking skills.<br><br>
@@ -304,7 +310,8 @@ The Technical Quiz is an engaging and competitive event designed to test partici
     desc: '',
     type: 'Contest',
     highlight: false,
-    isRegistrationOpen: false,
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/3x7t54ZcTDCLXbim7',
     solo: true,
     popupContent: `Description:<br><br>
 The Web Development Challenge is an intensive 6-hour event that puts participants' web development skills to the test, encompassing both front-end and back-end aspects. Participants, either individually or in teams, are tasked with designing, developing, and deploying a fully functional web application within the allocated timeframe. This challenge not only evaluates participants' proficiency in front-end technologies such as HTML, CSS, and JavaScript but also assesses their ability to implement dynamic functionality and data handling on the server-side using back-end technologies such as Node.js, Django, or Flask.<br><br>
@@ -377,6 +384,8 @@ Circuit Debugging (Game) is an interactive and engaging event that combines elem
     desc: '',
     type: '',
     highlight: false,
+    isRegistrationOpen: true,
+    registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfsjlbwUnLgbJyO9eClvCnRXQO1SRzP92chLTzFVoWMDClEqQ/viewform?usp=sf_link',
     popupContent: `Description:<br><br>
 The Construction (Civil Game) is an interactive and immersive event that challenges students to apply their civil engineering knowledge and creativity in designing and building structures within a simulated environment. Participants are provided with a set of construction materials, tools, and resources, and they are tasked with constructing various civil engineering projects, such as bridges, buildings, dams, or roads, based on given specifications and constraints.<br><br>
 
@@ -405,6 +414,8 @@ The Construction (Civil Game) is an interactive and immersive event that challen
     desc: '',
     type: 'Concert',
     highlight: false,
+    isRegistrationOpen: true,
+    registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfZVX10a5A7pEnk53ICjyBudrQ1hujlagj0D9txr2mTHLPV_w/viewform?usp=sf_link',
     popupContent: `Description:<br><br>
 Prompt Engineering for Photos (Game) is an innovative and creative event that challenges participants to recreate images generated by AI prompts using their own unique prompts. Participants are presented with a series of images generated by AI models based on specific prompts. Their task is to generate a prompt that effectively communicates the essence of the given image and recreate it using their own creativity and imagination.<br><br>
 
@@ -435,6 +446,7 @@ Highlight Points:<br><br>
     type: 'Contest',
     highlight: true,
     isRegistrationOpen: false,
+    registrationLink: '',
     solo: true,
     popupContent: `Description:<br><br>
 Electro Maze: Circuit Treasure Hunt is an exhilarating and interactive event that combines the thrill of a treasure hunt with the excitement of circuit building. Participants are tasked with deciphering clues and navigating through various locations within the college campus to locate hidden circuit components. Once found, participants must collect these components and assemble them to build functional circuits according to provided schematics or instructions.<br><br>
@@ -497,6 +509,8 @@ Highlight Points:<br><br>
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
+    isRegistrationOpen: true,
+    registrationLink: 'https://docs.google.com/forms/d/13p6xfBzAs7QBDgGeY9lWD1Q34TsILeLPQTNTyM_rWF8/edit?pli=1',
     highlight: false,
     popupContent:`
     Tech Debates (Game) is an intellectually stimulating and engaging event that encourages participants to debate on various topics related to technology, innovation, and emerging trends. Participants are divided into teams and assigned specific debate topics or propositions that they must argue for or against. The event is structured as a series of rounds, with teams presenting their arguments, counterarguments, and rebuttals in a competitive yet respectful manner.<br>
@@ -526,6 +540,8 @@ Engaging in debates helps participants develop essential soft skills such as pub
     desc: '',
     type: 'Event',
     highlight: false,
+    isRegistrationOpen: true,
+    registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLScqgcR_7y2SzDvfJLMsvqpmkfq6XByijs__RrEftVbCnnlf8Q/viewform?usp=sf_link',
     popupContent: `Description:<br><br>
 "TECH WORD QUEST" is an exciting two-round event that tests participants' technical knowledge and coding proficiency. In the first round, participants are presented with incomplete technical words along with hints. They must guess the complete word based on the hint provided. If they are unable to guess the word, additional letters will be gradually revealed until the word is completed. Participants earn scores based on their ability to guess the words correctly, determining their qualification for the second round.<br><br>
 
@@ -555,6 +571,8 @@ Highlight Points:<br><br>
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/AAkztfAgvvtK8m7C7',
     highlight: false
   },
   '18': {
@@ -566,6 +584,8 @@ Highlight Points:<br><br>
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
+    isRegistrationOpen: true,
+    registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSf8gcC6UhI1VmjdFui_qpzrFxoiLX4MJQOqdwTjtgWWQrmnkA/viewform?usp=sf_link       ',
     highlight: false,
     popupContent: `Description:<br><br>
 Collaborative Coding is an engaging and interactive event that promotes teamwork, problem-solving, and communication skills among participants. In this event, participants are organized into teams, and each team is presented with a coding challenge. The twist in this event is that the output of one team member's code becomes the input for the next team member's code, creating a collaborative chain of code snippets.<br><br>
@@ -596,6 +616,8 @@ Highlight Points:<br><br>
     desc: '',
     type: 'Event',
     highlight: false,
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/mxDzyMXH8vtyoDFU6             ',
     popupContent:`<strong>Description:</strong><br>
     The <strong>UI/UX Design with Figma</strong> event offers participants an opportunity to showcase their creativity and design skills in creating user interfaces and experiences using the Figma design tool. Figma is a collaborative interface design tool that enables designers to create, prototype, and collaborate on designs in real-time.<br><br>
     
@@ -656,6 +678,8 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
     
     venue: 'To Be Decided',
     desc: '',
+    registrationLink:'',
+    isRegistrationOpen: false,
     type: 'Event',
     highlight: false
   },
@@ -667,6 +691,8 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
+    isRegistrationOpen: false,
+    registrationLink: '',
     highlight: false
   },
   '24': {
@@ -687,6 +713,8 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
     day: 0,
     
     venue: 'To Be Decided',
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/wcLQGxaQd5i9K5RU9',
     desc: '',
     type: 'Event',
     highlight: false,
@@ -714,6 +742,8 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
     day: 0,
    
     venue: 'To Be Decided',
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/Vt6iP8qXLeQDPT8h6',
     desc: '',
     type: 'Event',
     highlight: false,
@@ -743,6 +773,8 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6',
     highlight: false,
     popupContent:`<Strong>Title: Mastering 3D Printing Software: An Offline Workshop for Enthusiasts and Professionals</Strong><br>
 
@@ -771,6 +803,8 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
+    registrationLink: 'https://forms.gle/eeJGsGV1LknKfLGY7 ',
+    isRegistrationOpen: true,
     highlight: false,
     popupContent:`Title: Exploring VLSI Design: A Comprehensive Workshop on Semiconductor Technology<br><br>
 
