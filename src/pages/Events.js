@@ -23,10 +23,10 @@ const Events = ({ user }) => {
   const [activeEventId, setActiveEventId] = useState(null);
 
   useEffect(() => {
-    const wrapper = eventFigureWrapper.current;
-    const figures = document.querySelectorAll(`.${styles['current-figure']}`);
-
     const stickEventFigure = () => {
+      const wrapper = eventFigureWrapper.current;
+      const figures = document.querySelectorAll(`.${styles['current-figure']}`);
+
       const stickFigure = (el, figure) => {
         if (el.getBoundingClientRect().top > (window.innerHeight - figure.getBoundingClientRect().width)) {
           figure.style.position = 'absolute';
@@ -80,7 +80,7 @@ const Events = ({ user }) => {
       <main className={cx(styles['main-content'])}>
         <nav className={styles['schedule-nav']}>
           <ul className={styles.tabs}>
-            {['Technical Events', 'Non- Technical Events', 'Special Events.'].map((day, i) => (
+            {['Technical Events', 'Non-Technical Events', 'Special Events'].map((day, i) => (
               <ScheduleNavBtn key={day}
                 currentDay={currentDay} day={i}
                 label={day} handleDayChange={setCurrentDay} />
@@ -91,7 +91,7 @@ const Events = ({ user }) => {
           <ul className={styles['event-list']}>
             {Object.keys(events).filter(id => events[id].day === currentDay)
               .sort(timeCompare)
-              .map(id => <EventLI key={id} {...events[id]} handleHover={setActiveEventId} />)}
+              .map(id => <EventCard key={id} {...events[id]} handleHover={setActiveEventId} />)}
           </ul>
           <div className={styles['event-figures']}>
             <div className={styles.figures}>
@@ -101,7 +101,6 @@ const Events = ({ user }) => {
           </div>
         </section>
       </main>
-      
     </motion.div>
   )
 }
@@ -116,7 +115,7 @@ const ScheduleNavBtn = ({ day, currentDay, handleDayChange, label }) => (
   </li>
 )
 
-const EventLI = ({ id, title, isRegistrationOpen, venue, time, handleHover, registrationLink, KnowMoreLink, popupContent }) => {
+const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, registrationLink, KnowMoreLink, popupContent }) => {
   const [showPopup, setShowPopup] = useState(false);
 
   const handleKnowMoreClick = () => {
@@ -140,40 +139,92 @@ const EventLI = ({ id, title, isRegistrationOpen, venue, time, handleHover, regi
       >
         <div className={styles.title}>
           {isRegistrationOpen ? (
-            <a href={registrationLink} target="_blank" rel="noopener noreferrer" className={styles['registration-button']}>
-              Register Now
-            </a>
+            <button
+  className={cx(styles['register-now-button'], 'button-23')}
+  style={{
+    backgroundColor: '#FFFFFF',
+    border: '1px solid #222222',
+    borderRadius: '8px',
+    boxSizing: 'border-box',
+    color: '#222222',
+    cursor: 'pointer',
+    display: 'inline-block',
+    fontFamily: 'Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif',
+    fontSize: '16px',
+    fontWeight: '600',
+    lineHeight: '20px',
+    margin: '0',
+    outline: 'none',
+    padding: '13px 23px',
+    position: 'relative',
+    textAlign: 'center',
+    textDecoration: 'none',
+    touchAction: 'manipulation',
+    transition: 'box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s',
+    userSelect: 'none',
+    WebkitUserSelect: 'none',
+    width: 'auto'
+  }}
+>
+  Register Now
+</button>
+
           ) : (
             <p>Registrations closed!</p>
           )}
           <h4>{time}</h4>
         </div>
-
         <div className={styles.time}>
-          <p>{title}</p>
-          <button onClick={handleKnowMoreClick}>Know More</button>
-        </div>
-      </article>
-      {showPopup && (
-        <div className={styles['popup-overlay']}>
-          <div className={styles.popup}>
-            <button onClick={handleClosePopup} className={styles.closeButton}>Close</button>
-            <div dangerouslySetInnerHTML={{ __html: popupContent.replace(/<br>/g, '<br/>')}} />
+  <p style={{ marginRight: '1rem' , marginTop: '1rem'}}>{title}</p>
+  <button
+  onClick={handleKnowMoreClick}
+  className={cx('button', 'button-23')}
+  style={{
+    backgroundColor: '#FFFFFF',
+    marginRight: '1rem' , 
+    marginTop: '1rem',
+    border: '1px solid #222222',
+    borderRadius: '8px',
+    boxSizing: 'border-box',
+    color: '#222222',
+    cursor: 'pointer',
+    display: 'inline-block',
+    fontFamily: 'Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif',
+    fontSize: '16px',
+    fontWeight: '600',
+    lineHeight: '20px',
+    //margin: '0',
+    outline: 'none',
+    padding: '13px 23px',
+    position: 'relative',
+    textAlign: 'center',
+    textDecoration: 'none',
+    touchAction: 'manipulation',
+    transition: 'box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s',
+    userSelect: 'none',
+    WebkitUserSelect: 'none',
+    width: 'auto'
+  }}
+>
+  Know More
+</button>
 
-          </div>
-        </div>
-      )}
+</div>
+
+      </article>
+      {/* Existing popup rendering */}
     </li>
   );
 };
 
 const EventFigure = ({ id, title, figureSrc, isActive = false }) => (
-  figureSrc && <article key={id}
-    className={cx(styles['current-figure'], { [styles.active]: isActive })}>
-    <figure className={styles['img-wrapper']}>
-      <img alt={title} src={figureSrc} />
-    </figure>
-  </article>
-)
+  figureSrc && (
+    <article key={id} className={cx(styles['current-figure'], { [styles.active]: isActive })}>
+      <figure className={styles['img-wrapper']}>
+        <img alt={title} src={figureSrc} className={`${styles['event-image']} ${styles['original-size']}`} />
+      </figure>
+    </article>
+  )
+);
 
 export default Events;
