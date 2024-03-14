@@ -220,11 +220,12 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
 const EventFigure = ({ id, title, figureSrc, isActive = false }) => (
   figureSrc && (
     <article key={id} className={cx(styles['current-figure'], { [styles.active]: isActive })}>
-      <figure className={styles['img-wrapper']}>
-        <img alt={title} src={figureSrc} className={`${styles['event-image']} ${styles['original-size']}`} />
+      <figure className={styles['img-wrapper']} style={{ borderRadius: '8px 8px 0 0' }}>
+        <img alt={title} src={figureSrc} className={`${styles['event-image']} ${styles['original-size']}`} style={{ borderRadius: '8px 8px 0 0', objectFit: 'cover' }} />
       </figure>
     </article>
   )
 );
+
 
 export default Events;
