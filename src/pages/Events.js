@@ -119,7 +119,8 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
   const [showPopup, setShowPopup] = useState(false);
 
   const handleKnowMoreClick = () => {
-    setShowPopup(true);
+    // Open the registration link in a new tab
+    window.open(registrationLink, '_blank');
   };
 
   const handleClosePopup = () => {
@@ -140,82 +141,88 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
         <div className={styles.title}>
           {isRegistrationOpen ? (
             <button
-  className={cx(styles['register-now-button'], 'button-23')}
-  style={{
-    backgroundColor: '#FFFFFF',
-    border: '1px solid #222222',
-    borderRadius: '8px',
-    boxSizing: 'border-box',
-    color: '#222222',
-    cursor: 'pointer',
-    display: 'inline-block',
-    fontFamily: 'Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif',
-    fontSize: '16px',
-    fontWeight: '600',
-    lineHeight: '20px',
-    margin: '0',
-    outline: 'none',
-    padding: '13px 23px',
-    position: 'relative',
-    textAlign: 'center',
-    textDecoration: 'none',
-    touchAction: 'manipulation',
-    transition: 'box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s',
-    userSelect: 'none',
-    WebkitUserSelect: 'none',
-    width: 'auto'
-  }}
->
-  Register Now
-</button>
-
+              className={cx(styles['register-now-button'], 'button-23')}
+              style={{
+                backgroundColor: '#FFFFFF',
+                border: '1px solid #222222',
+                borderRadius: '8px',
+                boxSizing: 'border-box',
+                color: '#222222',
+                cursor: 'pointer',
+                display: 'inline-block',
+                fontFamily: 'Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif',
+                fontSize: '16px',
+                fontWeight: '600',
+                lineHeight: '20px',
+                margin: '0',
+                outline: 'none',
+                padding: '13px 23px',
+                position: 'relative',
+                textAlign: 'center',
+                textDecoration: 'none',
+                touchAction: 'manipulation',
+                transition: 'box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s',
+                userSelect: 'none',
+                WebkitUserSelect: 'none',
+                width: 'auto'
+              }}
+              onClick={handleKnowMoreClick}
+            >
+              Register Now
+            </button>
           ) : (
             <p>Registrations closed!</p>
           )}
           <h4>{time}</h4>
         </div>
         <div className={styles.time}>
-  <p style={{ marginRight: '1rem' , marginTop: '1rem'}}>{title}</p>
-  <button
-  onClick={handleKnowMoreClick}
-  className={cx('button', 'button-23')}
-  style={{
-    backgroundColor: '#FFFFFF',
-    marginRight: '1rem' , 
-    marginTop: '1rem',
-    border: '1px solid #222222',
-    borderRadius: '8px',
-    boxSizing: 'border-box',
-    color: '#222222',
-    cursor: 'pointer',
-    display: 'inline-block',
-    fontFamily: 'Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif',
-    fontSize: '16px',
-    fontWeight: '600',
-    lineHeight: '20px',
-    //margin: '0',
-    outline: 'none',
-    padding: '13px 23px',
-    position: 'relative',
-    textAlign: 'center',
-    textDecoration: 'none',
-    touchAction: 'manipulation',
-    transition: 'box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s',
-    userSelect: 'none',
-    WebkitUserSelect: 'none',
-    width: 'auto'
-  }}
->
-  Know More
-</button>
-
-</div>
-
+          <p style={{ marginRight: '1rem', marginTop: '1rem' }}>{title}</p>
+          <button
+            onClick={handleKnowMoreClick}
+            className={cx('button', 'button-23')}
+            style={{
+              backgroundColor: '#FFFFFF',
+              marginRight: '1rem',
+              marginTop: '1rem',
+              border: '1px solid #222222',
+              borderRadius: '8px',
+              boxSizing: 'border-box',
+              color: '#222222',
+              cursor: 'pointer',
+              display: 'inline-block',
+              fontFamily: 'Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif',
+              fontSize: '16px',
+              fontWeight: '600',
+              lineHeight: '20px',
+              //margin: '0',
+              outline: 'none',
+              padding: '13px 23px',
+              position: 'relative',
+              textAlign: 'center',
+              textDecoration: 'none',
+              touchAction: 'manipulation',
+              transition: 'box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s',
+              userSelect: 'none',
+              WebkitUserSelect: 'none',
+              width: 'auto'
+            }}
+          >
+            Know More
+          </button>
+        </div>
       </article>
-      {/* Existing popup rendering */}
+      {showPopup && (
+        <div className={styles['popup-container']}>
+          <div className={styles['popup']}>
+            <button onClick={handleClosePopup} className={styles['close-button']}>Close</button>
+            <div dangerouslySetInnerHTML={{ __html: popupContent }} />
+          </div>
+        </div>
+      )}
     </li>
   );
 };
+
 
 const EventFigure = ({ id, title, figureSrc, isActive = false }) => (
   figureSrc && (
