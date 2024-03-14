@@ -709,7 +709,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '25': {
     id: '25',
     title: 'Web Development Workshop',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/cfc.png',
     day: 0,
     
     venue: 'To Be Decided',
