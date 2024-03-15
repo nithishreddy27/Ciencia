@@ -117,17 +117,11 @@ const ScheduleNavBtn = ({ day, currentDay, handleDayChange, label }) => (
   </li>
 );
 
-const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, registrationLink, KnowMoreLink, popupContent }) => {
+const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, registrationLink, popupContent }) => {
   const [showPopup, setShowPopup] = useState(false);
 
   const handleKnowMoreClick = () => {
-    if (isRegistrationOpen && registrationLink) {
-      // Open the registration link in a new tab
-      window.open(registrationLink, '_blank');
-    } else {
-      // Show the popup
-      setShowPopup(!showPopup);
-    }
+    setShowPopup(!showPopup); 
   };
 
   const handleClosePopup = () => {
@@ -215,6 +209,7 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
           >
             Know More
           </button>
+          
         </div>
       </article>
       {showPopup && (
