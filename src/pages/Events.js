@@ -121,7 +121,13 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
   const [showPopup, setShowPopup] = useState(false);
 
   const handleKnowMoreClick = () => {
-    setShowPopup(!showPopup);
+    if (isRegistrationOpen && registrationLink) {
+      // Open the registration link in a new tab
+      window.open(registrationLink, '_blank');
+    } else {
+      // Show the popup
+      setShowPopup(!showPopup);
+    }
   };
 
   const handleClosePopup = () => {
@@ -252,6 +258,7 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
     </li>
   );
 };
+
 
 const EventFigure = ({ id, title, figureSrc, isActive = false }) => (
   figureSrc && (
