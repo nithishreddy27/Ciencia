@@ -30,7 +30,8 @@ export const coordinators = [
   { name: 'C. Praneeth Sai,', roll: 'ECE/20/24', phone: '8099414875', email: 'dolly.btech.ece.20@nitap.ac.in' },
   { name: 'T. Sai Krishna Teja,', roll: 'ECE/20/24', phone: '9347842364', email: 'dolly.btech.ece.20@nitap.ac.in' },
   { name: 'G. Badri Narayana,', roll: 'ECE/20/24', phone: '7680095423', email: 'dolly.btech.ece.20@nitap.ac.in' },
-  { name: 'N. Umesh Krishna .', roll: 'ECE/20/24', phone: '7995640992', email: 'dolly.btech.ece.20@nitap.ac.in' },
+  { name: 'N. Umesh Krishna ,', roll: 'ECE/20/24', phone: '7995640992', email: 'dolly.btech.ece.20@nitap.ac.in' },
+  {name:'R Pranay Naik.', roll:'ECE/20/22',phone:'8186978747',email:'abc@gmail.com'},
   
 ]
 
