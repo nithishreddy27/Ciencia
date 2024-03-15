@@ -947,7 +947,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   day: 2, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
   isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://example.com/register', // Registration link for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
