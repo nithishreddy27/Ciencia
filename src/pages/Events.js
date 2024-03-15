@@ -1,11 +1,11 @@
+import React, { useRef, useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import styles from '../styles/Events.module.scss';
 import cx from 'classnames';
-import { events } from '../data/data';
-import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
-import SupportLink from '../components/SupportLink';
-import { ReactComponent as LinkIcon } from '../media/icons/link.svg';
+import { events } from '../data/data';
+import CloseIcon from './close.svg'; // Import CloseIcon as needed
+
+import styles from '../styles/Events.module.scss'; // Ensure correct path to your styles
 
 const timeCompare = (a, b) => {
   if (events[a].time < events[b].time) {
@@ -28,7 +28,7 @@ const Events = ({ user }) => {
       const figures = document.querySelectorAll(`.${styles['current-figure']}`);
 
       const stickFigure = (el, figure) => {
-        if (el.getBoundingClientRect().top > (window.innerHeight - figure.getBoundingClientRect().width)) {
+        if (el.getBoundingClientRect().top > window.innerHeight - figure.getBoundingClientRect().width) {
           figure.style.position = 'absolute';
           figure.style.top = '0';
         } else if (el.getBoundingClientRect().bottom > window.innerHeight) {
@@ -40,36 +40,36 @@ const Events = ({ user }) => {
           figure.style.bottom = '0';
           figure.style.top = 'unset';
         }
-      }
+      };
 
       figures.forEach(figure => {
         stickFigure(wrapper, figure);
-      })
-    }
+      });
+    };
 
-    window.addEventListener('scroll', stickEventFigure)
+    window.addEventListener('scroll', stickEventFigure);
 
     return () => {
       window.removeEventListener('scroll', stickEventFigure);
-    }
-  }, [currentDay])
+    };
+  }, [currentDay]);
 
   return (
-    <motion.div className={cx(styles.events, 'page-transition', 'container')}
+    <motion.div
+      className={cx(styles.events, 'page-transition', 'container')}
       initial={{ scaleX: 0 }}
       animate={{ scaleX: 1 }}
       exit={{ scaleX: 0 }}
     >
       <header className={cx('page-header', styles['page-header'])}>
-        <h1 className='heading'>
+        <h1 className="heading">
           <span>Event</span>
           <span>Schedule</span>
         </h1>
         <div className={cx(styles['header-btn-wrapper'])}>
-          <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>
+          <NavLink to="/gallery" className={cx('btn', styles['intro-header-btn'])}>
             <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Ciencia2k22 in reels</span>
             <span className={cx('btn-text', styles['intro-btn-text'])}>Gallery</span>
-            <LinkIcon />
           </NavLink>
         </div>
         <div className={cx('subtitle', styles['header-subtitle'])}>
@@ -81,46 +81,47 @@ const Events = ({ user }) => {
         <nav className={styles['schedule-nav']}>
           <ul className={styles.tabs}>
             {['Technical Events', 'Non-Technical Events', 'Special Events'].map((day, i) => (
-              <ScheduleNavBtn key={day}
-                currentDay={currentDay} day={i}
-                label={day} handleDayChange={setCurrentDay} />
+              <ScheduleNavBtn key={day} currentDay={currentDay} day={i} label={day} handleDayChange={setCurrentDay} />
             ))}
           </ul>
         </nav>
         <section ref={eventFigureWrapper} className={styles['event-list-wrapper']}>
           <ul className={styles['event-list']}>
-            {Object.keys(events).filter(id => events[id].day === currentDay)
+            {Object.keys(events)
+              .filter(id => events[id].day === currentDay)
               .sort(timeCompare)
-              .map(id => <EventCard key={id} {...events[id]} handleHover={setActiveEventId} />)}
+              .map(id => (
+                <EventCard key={id} {...events[id]} handleHover={setActiveEventId} />
+              ))}
           </ul>
           <div className={styles['event-figures']}>
             <div className={styles.figures}>
-              {Object.keys(events).filter(id => events[id].day === currentDay)
-                .map(id => <EventFigure key={id} {...events[id]} isActive={activeEventId === id} />)}
+              {Object.keys(events)
+                .filter(id => events[id].day === currentDay)
+                .map(id => (
+                  <EventFigure key={id} {...events[id]} isActive={activeEventId === id} />
+                ))}
             </div>
           </div>
         </section>
       </main>
     </motion.div>
-  )
-}
+  );
+};
 
 const ScheduleNavBtn = ({ day, currentDay, handleDayChange, label }) => (
   <li className={cx(styles.tab, { [styles.active]: currentDay === day })}>
-    <button
-      onClick={(e) => { e.preventDefault(); handleDayChange(day) }}
-      className={styles['tab-btn']}
-      type='button'
-    >{label}</button>
+    <button onClick={e => { e.preventDefault(); handleDayChange(day) }} className={styles['tab-btn']} type="button">
+      {label}
+    </button>
   </li>
-)
+);
 
 const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, registrationLink, KnowMoreLink, popupContent }) => {
   const [showPopup, setShowPopup] = useState(false);
 
   const handleKnowMoreClick = () => {
-    // Open the registration link in a new tab
-    window.open(registrationLink, '_blank');
+    setShowPopup(!showPopup);
   };
 
   const handleClosePopup = () => {
@@ -131,10 +132,10 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
     <li className={cx(styles['event-li'])}>
       <article
         className={styles['event-li-inner']}
-        onMouseOut={(e) => {
+        onMouseOut={() => {
           handleHover(null);
         }}
-        onMouseOver={(e) => {
+        onMouseOver={() => {
           handleHover(id);
         }}
       >
@@ -194,7 +195,6 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
               fontSize: '16px',
               fontWeight: '600',
               lineHeight: '20px',
-              //margin: '0',
               outline: 'none',
               padding: '13px 23px',
               position: 'relative',
@@ -212,9 +212,39 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
         </div>
       </article>
       {showPopup && (
-        <div className={styles['popup-container']}>
-          <div className={styles['popup']}>
-            <button onClick={handleClosePopup} className={styles['close-button']}>Close</button>
+        <div style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          zIndex: 9999,
+          backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        }}>
+          <div style={{
+            position: 'relative',
+            width: '85%',
+            maxWidth: '7000px',
+            backgroundColor: '#ffffff',
+            borderRadius: '8px',
+            boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
+            padding: '20px',
+          }}>
+            <button onClick={handleClosePopup} style={{
+              position: 'absolute',
+              top: '10px',
+              right: '10px',
+              cursor: 'pointer',
+              background: 'none',
+              border: 'none',
+              fontSize: '8px',
+              color: '#888888',
+            }}>
+              <img src={CloseIcon} alt="Close Icon" style={{ width: '30px', height: '30px' }} />
+            </button>
             <div dangerouslySetInnerHTML={{ __html: popupContent }} />
           </div>
         </div>
@@ -222,7 +252,6 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
     </li>
   );
 };
-
 
 const EventFigure = ({ id, title, figureSrc, isActive = false }) => (
   figureSrc && (
@@ -233,6 +262,5 @@ const EventFigure = ({ id, title, figureSrc, isActive = false }) => (
     </article>
   )
 );
-
 
 export default Events;
