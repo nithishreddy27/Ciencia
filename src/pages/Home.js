@@ -42,11 +42,11 @@ const Home = ({ user }) => {
             <span style={{ marginRight: '3ch' }}>Ciencia</span>
             <span className={styles._ar}>2k24</span>
           </h2>
-          <p className={styles.subtitle}>
-          CIENCIA, a National-level technical symposium by CVR College of Engineering, 
-          has transformed into a phenomenon, elevating CVRCE to fame and excellence. CIENCIA returns bigger, 
-          showcasing innovative events for all branches. With programming, analytical, and technical quizzes, 
-          it aims to transform attendees into active participants. Join CIENCIA for an unforgettable experience!
+          <p className={styles.subtitle} style={{ marginBottom: '-40px' }}> {/* Adjust margin bottom */}
+            CIENCIA, a National-level technical symposium by CVR College of Engineering, 
+            has transformed into a phenomenon, elevating CVRCE to fame and excellence. CIENCIA returns bigger, 
+            showcasing innovative events for all branches. With programming, analytical, and technical quizzes, 
+            it aims to transform attendees into active participants. Join CIENCIA for an unforgettable experience!
           </p>
           <div className={styles['header-btn-wrapper']}>
             <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>

@@ -125,7 +125,7 @@ export const events = {
     id: '3',
     slotId: '1',
     title: 'Paper Presentation',
-    figureSrc: '/media/events/quiz.jpg',
+    figureSrc: '/media/events/3.png',
     day: 0,
  
     venue: 'To be Decided',
@@ -155,7 +155,7 @@ Perks<br>
     id: '4',
     slotId: '1',
     title: 'Project Expo',
-    figureSrc: '/media/events/face.jpg',
+    figureSrc: '/media/events/18.png',
     day: 0,
   
     venue: 'To Be Decided',
@@ -186,10 +186,12 @@ Perks<br>
   '5': {
     id: '5',
     title: 'Poster Presentation',
-    figureSrc: '/media/events/college-students-performance.jpg',
+    figureSrc: '/media/events/17.png',
     day: 0,
  
     venue: 'To Be Decided',
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/TxY8kLssJnWQZGw28',
     desc: '',
     type: 'Event',
     highlight: false,
@@ -211,14 +213,16 @@ Perks<br>
   },
   '6': {
     id: '6',
-    title: 'Hackathon - 8 Hrs',
-    figureSrc: '/media/events/band1.jpg',
+    title: 'Hackfusion',
+    figureSrc: '/media/events/15.png',
     day: 0,
  
     venue: 'To Be Decided',
     desc: '',
     type: 'Concert',
     highlight: false,
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/G5g9nLtV9C2pw3jC9',
     popupContent: `Description:<br><br>
 The <strong>Hackathon</strong> is an exhilarating 8-hour event that challenges students to harness their creativity, technical prowess, and collaborative spirit to tackle real-world problems or pursue innovative ideas. Participants form teams and dive headfirst into a whirlwind of coding, designing, and problem-solving as they race against the clock to develop functional prototypes or solutions. This high-energy environment fosters rapid ideation, experimentation, and iteration, culminating in the presentation of projects to a panel of judges and peers.<br><br>
 
@@ -239,14 +243,15 @@ Highlight Points:<br><br>
     id: '7',
     slotId: '2',
     title: 'SharkTank',
-    figureSrc: '/media/events/poetry.jpg',
+    figureSrc: '/media/events/4.png',
     day: 0,
   
     venue: 'To Be Decided',
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/7Uov4BqZmqK9zgkh7',
     desc: '',
     type: 'Contest',
     highlight: false,
-    isRegistrationOpen: false,
     solo: true,
     popupContent: `Description:<br><br>
 In the <strong>Shark Tank</strong> event, aspiring student entrepreneurs have the opportunity to pitch their startup ideas to a panel of judges, emulating the high-stakes environment of the popular television show. Participants must succinctly and persuasively present their business concepts, outlining the problem they aim to solve, their unique value proposition, market opportunity, and potential for growth. Judges provide feedback, ask probing questions, and may even offer investment opportunities to promising startups, creating a thrilling and immersive experience for all involved.<br><br>
@@ -269,13 +274,14 @@ Highlight Points:<br><br>
     id: '1',
     slotId: '2',
     title: 'Technical Quiz',
-    figureSrc: '/media/events/dance.jpeg',
+    figureSrc: '/media/events/5.png',
     day: 0,
     venue: 'To Be Decided',
     desc: '',
     type: 'Contest',
     highlight: true,
-    isRegistrationOpen: false,
+    isRegistrationOpen: true,
+    registrationLink: 'https://docs.google.com/forms/d/12JPy-XWfUfamWiGSc_ls6Q-7fU9i8iS1hp6NYK9RXEc/edit?chromeless=1',
     solo: false,
     popupContent: `Description:<br><br>
 The Technical Quiz is an engaging and competitive event designed to test participants' knowledge, problem-solving abilities, and technical expertise across various domains. Participants compete individually or in teams to answer a series of challenging questions related to programming languages, algorithms, data structures, software development methodologies, and other technical topics. The quiz format may include multiple-choice questions, true/false statements, and coding challenges, providing a comprehensive assessment of participants' technical acumen and critical thinking skills.<br><br>
@@ -298,14 +304,15 @@ The Technical Quiz is an engaging and competitive event designed to test partici
     id: '9',
     slotId: '3',
     title: 'Webathon',
-    figureSrc: '/media/events/essay.jpg',
+    figureSrc: '/media/events/6.png',
     day: 0,
 
     venue: 'To Be Decided',
     desc: '',
     type: 'Contest',
     highlight: false,
-    isRegistrationOpen: false,
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/3x7t54ZcTDCLXbim7',
     solo: true,
     popupContent: `Description:<br><br>
 The Web Development Challenge is an intensive 6-hour event that puts participants' web development skills to the test, encompassing both front-end and back-end aspects. Participants, either individually or in teams, are tasked with designing, developing, and deploying a fully functional web application within the allocated timeframe. This challenge not only evaluates participants' proficiency in front-end technologies such as HTML, CSS, and JavaScript but also assesses their ability to implement dynamic functionality and data handling on the server-side using back-end technologies such as Node.js, Django, or Flask.<br><br>
@@ -328,7 +335,7 @@ The Web Development Challenge is an intensive 6-hour event that puts participant
     id: '10',
     slotId: '4',
     title: 'Circuit Debugging',
-    figureSrc: '/media/events/sketch.jpg',
+    figureSrc: '/media/events/12.png',
     day: 0, 
     venue: 'To Be Decided',
     desc: '',
@@ -371,57 +378,52 @@ Circuit Debugging (Game) is an interactive and engaging event that combines elem
   '12': {
     id: '12',
     title: 'CityCrafters',
-    figureSrc: '/media/events/peasantry.jpeg',
+    figureSrc: '/media/events/7.png',
     day: 0,
 
     venue: 'To Be Decided',
     desc: '',
     type: '',
     highlight: false,
-    popupContent: `Description:<br><br>
-The Construction (Civil Game) is an interactive and immersive event that challenges students to apply their civil engineering knowledge and creativity in designing and building structures within a simulated environment. Participants are provided with a set of construction materials, tools, and resources, and they are tasked with constructing various civil engineering projects, such as bridges, buildings, dams, or roads, based on given specifications and constraints.<br><br>
-
-<strong>Perks of Participating in Construction (Civil Game):</strong><br><br>
-1. Hands-on Application of Civil Engineering Principles<br>
-2. Creativity and Innovation in Structural Design<br>
-3. Teamwork and Collaboration Enhancement<br>
-4. Problem-solving Skills Development in Construction<br>
-5. Realistic Simulation of Construction Projects<br><br>
-
-<strong>Highlight Points:</strong><br><br>
-1. Hands-On Engineering Experience: The Construction (Civil Game) provides participants with hands-on experience in civil engineering principles and construction techniques. Participants engage directly with construction materials, equipment, and simulations, gaining practical insights into the complexities of real-world construction projects.<br>
-2. Creative Problem-Solving: Participants must utilize their problem-solving abilities and engineering expertise to design and construct functional and aesthetically pleasing structures. They must consider factors such as structural integrity, load-bearing capacity, material strength, and environmental conditions while adhering to project requirements and constraints.<br>
-3. Collaboration and Teamwork: The game promotes collaborative teamwork as participants work together in teams to plan, coordinate, and execute construction projects. By leveraging each other's strengths, sharing ideas, and communicating effectively, teams can optimize their construction processes and achieve better outcomes.<br>
-4. Simulation and Realism: The use of simulations and virtual environments allows participants to experience realistic construction scenarios and challenges without the risks and costs associated with actual construction sites. This immersive experience enhances learning outcomes and prepares students for future careers in civil engineering and construction management.<br>
-5. Competition and Innovation: The Construction (Civil Game) may incorporate elements of competition and innovation, with teams competing against each other to design and build the most efficient, cost-effective, and innovative structures. Judges may evaluate projects based on criteria such as structural integrity, aesthetics, sustainability, and efficiency, fostering a spirit of competition and encouraging participants to push the boundaries of engineering creativity.<br>`
+    isRegistrationOpen: true,
+    registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfsjlbwUnLgbJyO9eClvCnRXQO1SRzP92chLTzFVoWMDClEqQ/viewform?usp=sf_link',
+    popupContent: `<strong>Description:</strong><br><br>
+    The Construction (Civil Game) is an interactive event where students apply civil engineering knowledge to design and build structures within a simulated environment. They use provided materials to construct projects like bridges or buildings based on specifications.
+    <br><br>
+    Benefits of participating include hands-on application of engineering principles, creativity in design, teamwork enhancement, problem-solving skills development, and realistic simulation of construction projects.
+    <br><br>
+    <strong>Key points:</strong>
+    <br><br>
+    <strong>Hands-On Experience: </strong>Participants gain practical insights into civil engineering principles and construction techniques by directly engaging with materials and simulations.
+    <br><br><strong>Creative Problem-Solving:</strong> They must solve engineering challenges while considering factors like structural integrity and environmental conditions.
+    <br><br><strong>Collaboration:</strong> Teams work together to plan and execute projects, optimizing processes through effective communication and leveraging each other's strengths.
+    <br><br><strong>Realistic Simulation:</strong> Virtual environments provide realistic construction scenarios, preparing students for real-world challenges.
+    <br><br><strong> Competition and Innovation:</strong> The event may include competitive elements, encouraging innovative and efficient design solutions evaluated by judges based on various criteria.
+<br>`
 
   },
   '13': {
     id: '13',
     title: 'ImagiPrompt: Ai inspired Photo Engineering Challenge',
-    figureSrc: '/media/events/tribe1.jpg',
+    figureSrc: '/media/events/10.png',
     day: 0,
 
     venue: 'To Be Decided',
     desc: '',
     type: 'Concert',
     highlight: false,
-    popupContent: `Description:<br><br>
+    isRegistrationOpen: true,
+    registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfZVX10a5A7pEnk53ICjyBudrQ1hujlagj0D9txr2mTHLPV_w/viewform?usp=sf_link',
+    popupContent: `<strong>Description:</strong><br><br>
 Prompt Engineering for Photos (Game) is an innovative and creative event that challenges participants to recreate images generated by AI prompts using their own unique prompts. Participants are presented with a series of images generated by AI models based on specific prompts. Their task is to generate a prompt that effectively communicates the essence of the given image and recreate it using their own creativity and imagination.<br><br>
 
-<strong>Perks of Participating:</strong><br><br>
-1. Creative Expression<br>
-2. Critical Thinking<br>
-3. Divergent Thinking<br>
-4. Collaborative Learning<br>
-5. Enhanced Visual Literacy<br><br>
 
-Highlight Points:<br><br>
-1. Creative Interpretation: Participants must leverage their creativity and imagination to develop prompts that capture the essence of the images generated by AI models. The event encourages participants to think critically and conceptually about the visual elements and themes present in the images.<br>
-2. Expressive Artistry: Prompt Engineering for Photos provides participants with a platform to express their artistic vision and style through the creation of unique prompts and images. Participants have the freedom to experiment with different concepts, styles, and techniques to produce visually compelling and meaningful artworks.<br>
-3. Problem-Solving Skills: Participants are challenged to analyze and deconstruct the images generated by AI prompts, identifying key visual elements, colors, textures, and compositions. They must then formulate prompts that effectively convey these elements and guide their own artistic process in recreating the images.<br>
-4. Community Engagement: The event fosters community engagement and participation by showcasing the participants' recreated images on the event website. This allows participants to share their creative work with a wider audience and receive feedback and recognition for their efforts.<br>
-5. Judging and Prizes: Recreated images are evaluated based on their accuracy, creativity, and artistic merit. The most accurate and visually compelling recreations, as judged by a panel of experts or through community voting, are awarded prizes and recognition. This incentivizes participants to strive for excellence and encourages friendly competition among participants.<br>`
+<strong>Highlight Points:</strong><br><br>
+<strong>Creative Interpretation:</strong> Participants must think critically about visual elements in AI-generated images to develop prompts that reflect their essence.
+<br><br><strong>Expressive Artistry:</strong> The event allows participants to express their artistic vision through unique prompts and images, encouraging experimentation with different styles and techniques.
+<br><br><strong>Problem-Solving Skills:</strong> Participants analyze AI-generated images to identify key visual elements and formulate effective prompts guiding their artistic process.
+<br><br><strong>Community Engagement:</strong> Recreated images are shared on the event website, fostering community participation and providing a platform for participants to showcase their work and receive feedback.
+<br><br><strong>Judging and Prizes:</strong> Images are evaluated for accuracy, creativity, and artistic merit, with prizes awarded to the most compelling recreations, fostering friendly competition and incentivizing excellence.<br>`
 
   },
   '8': {
@@ -436,8 +438,9 @@ Highlight Points:<br><br>
     type: 'Contest',
     highlight: true,
     isRegistrationOpen: false,
+    registrationLink: '',
     solo: true,
-    popupContent: `Description:<br><br>
+    popupContent: `<strong>Description:</strong><br><br>
 Electro Maze: Circuit Treasure Hunt is an exhilarating and interactive event that combines the thrill of a treasure hunt with the excitement of circuit building. Participants are tasked with deciphering clues and navigating through various locations within the college campus to locate hidden circuit components. Once found, participants must collect these components and assemble them to build functional circuits according to provided schematics or instructions.<br><br>
 
 <strong>Perks of Participating:</strong><br><br>
@@ -460,7 +463,7 @@ Highlight Points:<br><br>
     id: '14',
     slotId: '5',
     title: 'Tech Debates',
-    figureSrc: '/media/events/peasantry.jpeg',
+    figureSrc: '/media/events/19.png',
     day: 0,
   
     venue: 'To Be Decided',
@@ -470,22 +473,16 @@ Highlight Points:<br><br>
     isRegistrationOpen: true,
     registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSduKVYTF5-Ch8LpOErBWhy4TMSh2crghC2bSiwkIo1IZHlA7g/viewform?usp=pp_url',
     solo: true,
-    popupContent: `Description:<br><br>
-Tech Debates (Game) is an intellectually stimulating and engaging event that encourages participants to debate on various topics related to technology, innovation, and emerging trends. Participants are divided into teams and assigned specific debate topics or propositions that they must argue for or against. The event is structured as a series of rounds, with teams presenting their arguments, counterarguments, and rebuttals in a competitive yet respectful manner.<br><br>
-
-<strong>Perks of Participating:</strong><br><br>
-1. Public Speaking Skills Enhancement<br>
-2. Critical Thinking and Argumentation Development<br>
-3. Research and Knowledge Acquisition<br>
-4. Team Collaboration and Coordination<br>
-5. Exposure to Current Technology Trends<br><br>
-
-Highlight Points:<br><br>
-1. Critical Thinking and Persuasive Communication: Tech Debates challenge participants to think critically, analyze complex issues, and articulate their perspectives convincingly. Participants must develop coherent arguments supported by evidence, logic, and reasoning to persuade the audience and win the debate.<br>
-2. Exploration of Technology Trends: The debate topics cover a wide range of technology-related issues, including ethical considerations, societal impacts, future trends, and industry developments. Through engaging in debates, participants gain insights into diverse viewpoints and deepen their understanding of complex technological issues.<br>
-3. Collaboration and Teamwork: Participants collaborate closely within their teams to research, strategize, and prepare arguments for the debate topics. Teamwork fosters communication, coordination, and division of responsibilities, allowing participants to leverage each other's strengths and expertise.<br>
-4. Audience Engagement and Interaction: Tech Debates encourage audience participation, with spectators posing questions, offering feedback, and voting on the performance of the debating teams. This interactive element adds excitement and dynamism to the event, fostering a sense of community and involvement among participants and spectators alike.<br>
-5. Development of Soft Skills: Engaging in debates helps participants develop essential soft skills such as public speaking, critical thinking, persuasion, and teamwork. These skills are valuable in various professional contexts, including presentations, negotiations, and collaborative projects, enhancing participants' overall employability and career readiness.<br>`
+    popupContent: `<strong>Description:</strong><br><br>
+    Tech Debates (Game) is an intellectually stimulating event where participants debate on technology-related topics. It enhances public speaking skills, critical thinking, and teamwork, while providing exposure to current technology trends.
+    <br><br>
+    <strong>Key points:</strong>
+    <br><br>
+    <strong>Critical Thinking and Persuasive Communication:</strong> Participants develop coherent arguments supported by evidence to persuade the audience.
+    <br><br><strong>Exploration of Technology Trends:</strong> Debates cover diverse technology-related issues, deepening participants' understanding of complex topics.
+    <br><br><strong>Collaboration and Teamwork:</strong> Participants work closely in teams to research and prepare arguments, fostering communication and coordination.
+    <br><br><strong>Audience Engagement:</strong> Spectators engage by asking questions, offering feedback, and voting on team performance, creating a dynamic atmosphere.
+    <br><br><strong>Development of Soft Skills:</strong> Engaging in debates helps participants enhance public speaking, critical thinking, and teamwork skills, improving their employability.<br>`
 
     
   },
@@ -498,6 +495,8 @@ Highlight Points:<br><br>
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
+    isRegistrationOpen: true,
+    registrationLink: 'https://docs.google.com/forms/d/13p6xfBzAs7QBDgGeY9lWD1Q34TsILeLPQTNTyM_rWF8/edit?pli=1',
     highlight: false,
     popupContent:`
     Tech Debates (Game) is an intellectually stimulating and engaging event that encourages participants to debate on various topics related to technology, innovation, and emerging trends. Participants are divided into teams and assigned specific debate topics or propositions that they must argue for or against. The event is structured as a series of rounds, with teams presenting their arguments, counterarguments, and rebuttals in a competitive yet respectful manner.<br>
@@ -527,76 +526,77 @@ Engaging in debates helps participants develop essential soft skills such as pub
     desc: '',
     type: 'Event',
     highlight: false,
+    isRegistrationOpen: true,
+    registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLScqgcR_7y2SzDvfJLMsvqpmkfq6XByijs__RrEftVbCnnlf8Q/viewform?usp=sf_link',
     popupContent: `Description:<br><br>
-"TECH WORD QUEST" is an exciting two-round event that tests participants' technical knowledge and coding proficiency. In the first round, participants are presented with incomplete technical words along with hints. They must guess the complete word based on the hint provided. If they are unable to guess the word, additional letters will be gradually revealed until the word is completed. Participants earn scores based on their ability to guess the words correctly, determining their qualification for the second round.<br><br>
-
-In the second round, participants are presented with code snippets containing missing parts. They must either fill in the missing code to complete the snippet or predict the output based on the given code. This round assesses participants' coding skills, logic, and understanding of programming concepts. Scores earned in this round contribute to the final evaluation of participants' performance.<br><br>
-
-**Perks of Participating:**<br><br>
-1. Enhances Technical Vocabulary<br>
-2. Improves Problem-solving Skills<br>
-3. Sharpens Coding Proficiency<br>
-4. Encourages Critical Thinking<br>
-5. Provides Competitive Learning Environment<br><br>
-
-Highlight Points:<br><br>
-1. Technical Knowledge Assessment: "TECH WORD QUEST" challenges participants' understanding of technical terms and concepts. By providing hints and incomplete words, the event encourages participants to recall and apply their knowledge in various areas of technology.<br>
-2. Problem-Solving Skills: Participants must demonstrate their problem-solving abilities by deciphering hints, deducing the missing letters in technical words, and completing code snippets. This requires logical thinking, analytical reasoning, and attention to detail.<br>
-3. Coding Proficiency Evaluation: The second round of the event evaluates participants' coding proficiency through code snippets. Participants must demonstrate their ability to write correct code or predict the behavior of code based on given inputs, showcasing their programming skills and understanding of programming languages.<br>
-4. Competitive Element: "TECH WORD QUEST" introduces a competitive element by scoring participants based on their performance in both rounds. This fosters motivation and encourages participants to strive for accuracy and efficiency in solving the challenges presented to them.<br>
-5. Learning Opportunity: Participation in "TECH WORD QUEST" provides participants with an opportunity to expand their technical vocabulary, reinforce their understanding of programming concepts, and sharpen their coding skills. Additionally, feedback and discussions during the event offer valuable learning experiences for participants to improve their knowledge and expertise in technology and coding.<br>`
+    "TECH WORD QUEST" is an engaging event designed to test participants' technical knowledge and coding abilities through two rounds. In the first round, participants decipher incomplete technical words using hints provided. If they struggle, additional letters are revealed gradually. Scores are based on their ability to guess correctly, determining their qualification for the second round.
+    <br /> <br />
+    In the second round, participants encounter code snippets with missing parts. They must fill in the blanks or predict output, showcasing their coding skills, logic, and understanding of programming concepts. Scores from this round contribute to the final evaluation.
+    <br /> <br />
+    Participation offers benefits such as enhancing technical vocabulary, improving problem-solving skills, sharpening coding proficiency, encouraging critical thinking, and providing a competitive learning environment.
+    <br /> <br />
+    Key points:
+    <br /><br />
+    Technical Knowledge Assessment: Challenges understanding of technical terms and concepts through hints and incomplete words.
+    <br /> <br /> Problem-Solving Skills: Requires deciphering hints, deducing missing letters, and completing code snippets, fostering logical thinking and attention to detail.
+    <br /> <br />Coding Proficiency Evaluation: Assesses coding skills through code snippets, testing participants' ability to write correct code or predict behavior.
+    <br /> <br />Competitive Element: Scores participants based on performance, fostering motivation and accuracy.
+    <br /> <br />Learning Opportunity: Expands technical vocabulary, reinforces programming concepts, and offers valuable learning experiences through feedback and discussions.
+<br>`
 
   },
   '17': {
     id: '17',
     title: 'Game Dev Battle',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/14.png',
     day: 0,
 
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/AAkztfAgvvtK8m7C7',
     highlight: false
   },
   '18': {
     id: '18',
     title: 'Collaborative Coding',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/11.png',
     day: 0,
    
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
+    isRegistrationOpen: true,
+    registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSf8gcC6UhI1VmjdFui_qpzrFxoiLX4MJQOqdwTjtgWWQrmnkA/viewform?usp=sf_link       ',
     highlight: false,
-    popupContent: `Description:<br><br>
-Collaborative Coding is an engaging and interactive event that promotes teamwork, problem-solving, and communication skills among participants. In this event, participants are organized into teams, and each team is presented with a coding challenge. The twist in this event is that the output of one team member's code becomes the input for the next team member's code, creating a collaborative chain of code snippets.<br><br>
-
-**Perks of Participating:**<br><br>
-1. Teamwork Enhancement<br>
-2. Problem-solving Collaboration<br>
-3. Communication Skills Development<br>
-4. Exposure to Different Coding Styles<br>
-5. Real-world Simulation of Collaborative Development Environment<br><br>
-
-Highlight Points:<br><br>
-1. Team Collaboration: Collaborative Coding fosters collaboration among team members as they work together to tackle a coding challenge. Participants must communicate effectively, share ideas, and coordinate their efforts to ensure seamless integration of their code snippets.<br>
-2. Problem-Solving Dynamics: Participants engage in a dynamic problem-solving process, where each team member's solution builds upon the previous one. This encourages creativity, adaptability, and flexibility in approaching the coding challenge from different perspectives.<br>
-3. Continuous Integration: The event promotes the concept of continuous integration, with each team member's code seamlessly integrating with the previous one. This iterative process allows teams to progressively refine and improve their solution while maintaining overall coherence and functionality.<br>
-4. Learning Through Collaboration: Collaborative Coding provides participants with an opportunity to learn from each other's coding styles, techniques, and approaches. By working collaboratively, participants can gain insights into different problem-solving strategies, coding best practices, and software development methodologies.<br>
-5. Time Management and Coordination: Participants must manage their time effectively and coordinate their contributions to ensure timely completion of the coding challenge. Effective time management, task delegation, and communication are essential for maximizing productivity and achieving success as a team.<br>
-6. Enhancing Soft Skills: Beyond coding proficiency, Collaborative Coding helps participants develop essential soft skills such as teamwork, communication, leadership, and conflict resolution. These skills are valuable in various professional settings and contribute to participants' overall personal and professional growth.<br>`
+    popupContent: `<strong>Description:</strong><br><br>
+    Collaborative Coding is an event focused on promoting teamwork, problem-solving, and communication skills among participants. Teams are assigned coding challenges where each team member's output becomes the input for the next member, creating a collaborative chain of code snippets.
+    <br /> <br />
+    Benefits of participating include enhancing teamwork, fostering problem-solving collaboration, developing communication skills, experiencing different coding styles, and simulating a real-world collaborative development environment.
+    <br /> <br />
+    <strong>Key points</strong>:
+    <br /><br />
+    <strong>Team Collaboration</strong>: Teams work together, communicate effectively, and coordinate efforts to tackle coding challenges.
+    <br /> <br /><strong>Problem-Solving Dynamics</strong>: Solutions build upon each other, encouraging creativity and flexibility in approaching challenges.
+    <br /> <br /><strong>Continuous Integration</strong>: Each member's code seamlessly integrates with the previous one, allowing for iterative refinement of solutions.
+    <br /> <br /><strong>Learning Through Collaboration</strong>: Participants learn from each other's coding styles and problem-solving approaches.
+    <br /> <br /><strong>Time Management and Coordination</strong>: Effective time management and communication are essential for timely completion of challenges.
+    <br /> <br /><strong>Enhancing Soft Skills</strong>: The event also helps develop soft skills such as teamwork, communication, leadership, and conflict resolution, contributing to personal and professional growth.<br>`
 
   },
   '19': {
     id: '19',
     title: 'UI Design with Figma',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/8.png',
     day: 0,
     
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
     highlight: false,
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/mxDzyMXH8vtyoDFU6             ',
     popupContent:`<strong>Description:</strong><br>
     The <strong>UI/UX Design with Figma</strong> event offers participants an opportunity to showcase their creativity and design skills in creating user interfaces and experiences using the Figma design tool. Figma is a collaborative interface design tool that enables designers to create, prototype, and collaborate on designs in real-time.<br><br>
     
@@ -652,42 +652,37 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '22': {
     id: '22',
     title: 'Engine Assembling',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/9.png',
     day: 0,
     
     venue: 'To Be Decided',
     desc: '',
+    registrationLink:'',
+    isRegistrationOpen: false,
     type: 'Event',
     highlight: false
   },
   '23': {
     id: '23',
     title: 'Game Development Workshop',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/13.png',
     day: 0,
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
-    highlight: false
-  },
-  '24': {
-    id: '24',
-    title: 'VR/AR Workshop',
-    figureSrc: '/media/events/dj.jpeg',
-    day: 0,
-   
-    venue: 'To Be Decided',
-    desc: '',
-    type: 'Event',
+    isRegistrationOpen: false,
+    registrationLink: '',
     highlight: false
   },
   '25': {
     id: '25',
     title: 'Web Development Workshop',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/21.png',
     day: 0,
     
     venue: 'To Be Decided',
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/wcLQGxaQd5i9K5RU9',
     desc: '',
     type: 'Event',
     highlight: false,
@@ -711,10 +706,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '26': {
     id: '26',
     title: 'Langchain Workshop Online',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/16.png',
     day: 0,
    
     venue: 'To Be Decided',
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/Vt6iP8qXLeQDPT8h6',
     desc: '',
     type: 'Event',
     highlight: false,
@@ -738,12 +735,14 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '27': {
     id: '27',
     title: '3D Printing Software Workshop',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/2.png',
     day: 0,
   
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
+    isRegistrationOpen: true,
+    registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6',
     highlight: false,
     popupContent:`<Strong>Title: Mastering 3D Printing Software: An Offline Workshop for Enthusiasts and Professionals</Strong><br>
 
@@ -766,12 +765,14 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '28': {
     id: '28',
     title: 'VLSI Workshop',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/20.png',
     day: 0,
     
     venue: 'To Be Decided',
     desc: '',
     type: 'Event',
+    registrationLink: 'https://forms.gle/eeJGsGV1LknKfLGY7 ',
+    isRegistrationOpen: true,
     highlight: false,
     popupContent:`Title: Exploring VLSI Design: A Comprehensive Workshop on Semiconductor Technology<br><br>
 
@@ -813,8 +814,145 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   desc: '',
   type: 'Event',
   highlight: false
+},
+
+'31': {
+  id: '8', // Unique identifier for the event
+  title: 'VR Valley', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 2, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://example.com/register', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'32': {
+  id: '8', // Unique identifier for the event
+  title: 'LAN Gaming', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 2, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://example.com/register', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'33': {
+  id: '8', // Unique identifier for the event
+  title: 'Box Cricket', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 2, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://example.com/register', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'34': {
+  id: '8', // Unique identifier for the event
+  title: 'Fitness Maniac', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 2, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://example.com/register', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'35': {
+  id: '8', // Unique identifier for the event
+  title: 'Micro Film Fest', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 2, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://example.com/register', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'36': {
+  id: '8', // Unique identifier for the event
+  title: 'Face, Hand Painting & Tatoos', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 2, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://example.com/register', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'37': {
+  id: '8', // Unique identifier for the event
+  title: 'Photo Booth', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 2, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
 }
+
 }
+
+
 
 export const eventSlots = {
   '0': ['2', '17'],
