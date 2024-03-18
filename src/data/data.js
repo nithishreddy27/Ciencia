@@ -125,7 +125,7 @@ export const events = {
     id: '3',
     slotId: '1',
     title: 'Paper Presentation',
-    figureSrc: '/media/events/3.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710747530/bzdzvjjoahq019a5xffx.png',
     day: 0,
  
     venue: 'To be Decided',
