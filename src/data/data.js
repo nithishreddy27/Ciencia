@@ -926,7 +926,272 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   2. Benefit 2<br>
   3. Benefit 3<br>
   ` // Popup content with detailed description and perks of participating
-}
+},
+'38': {
+  id: '8', // Unique identifier for the event
+  title: 'Duck duck quack quack', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},'39': {
+  id: '8', // Unique identifier for the event
+  title: 'Mini RC racing', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'40': {
+  id: '8', // Unique identifier for the event
+  title: 'Haunted house', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'41': {
+  id: '8', // Unique identifier for the event
+  title: 'Board gala', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'42': {
+  id: '8', // Unique identifier for the event
+  title: 'Gameathon', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'43': {
+  id: '8', // Unique identifier for the event
+  title: 'Musical Chairs', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'44': {
+  id: '8', // Unique identifier for the event
+  title: 'IPL auction', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'45': {
+  id: '8', // Unique identifier for the event
+  title: 'get rid of 3', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'46': {
+  id: '8', // Unique identifier for the event
+  title: 'Hit the ball, not the stumps', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'47': {
+  id: '8', // Unique identifier for the event
+  title: 'Tug of war', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'48': {
+  id: '8', // Unique identifier for the event
+  title: 'Gambol', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'49': {
+  id: '8', // Unique identifier for the event
+  title: 'Dodge in the dark', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'50': {
+  id: '8', // Unique identifier for the event
+  title: 'Dodge in the dark', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
+'51': {
+  id: '8', // Unique identifier for the event
+  title: ' Song dedication', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
+  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  Description of Special Event 1.<br><br>
+  Perks of Participating:<br><br>
+  1. Benefit 1<br>
+  2. Benefit 2<br>
+  3. Benefit 3<br>
+  ` // Popup content with detailed description and perks of participating
+},
 
 }
 
