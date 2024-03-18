@@ -929,7 +929,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 },
 '38': {
   id: '8', // Unique identifier for the event
-  title: 'Duck duck quack quack', // Title of the event
+  title: 'Duck Duck Quack Quack', // Title of the event
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
@@ -947,7 +947,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   ` // Popup content with detailed description and perks of participating
 },'39': {
   id: '8', // Unique identifier for the event
-  title: 'Mini RC racing', // Title of the event
+  title: 'Mini RC Racing', // Title of the event
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
@@ -966,7 +966,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 },
 '40': {
   id: '8', // Unique identifier for the event
-  title: 'Haunted house', // Title of the event
+  title: 'Haunted House', // Title of the event
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
@@ -985,7 +985,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 },
 '41': {
   id: '8', // Unique identifier for the event
-  title: 'Board gala', // Title of the event
+  title: 'Board Gala', // Title of the event
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
@@ -1042,7 +1042,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 },
 '44': {
   id: '8', // Unique identifier for the event
-  title: 'IPL auction', // Title of the event
+  title: 'IPL Auction', // Title of the event
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
@@ -1061,7 +1061,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 },
 '45': {
   id: '8', // Unique identifier for the event
-  title: 'get rid of 3', // Title of the event
+  title: 'Get Rid Of 3', // Title of the event
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
@@ -1080,7 +1080,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 },
 '46': {
   id: '8', // Unique identifier for the event
-  title: 'Hit the ball, not the stumps', // Title of the event
+  title: 'Hit The Ball, Not The Stumps', // Title of the event
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
@@ -1099,7 +1099,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 },
 '47': {
   id: '8', // Unique identifier for the event
-  title: 'Tug of war', // Title of the event
+  title: 'Tug Of War', // Title of the event
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
@@ -1137,7 +1137,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 },
 '49': {
   id: '8', // Unique identifier for the event
-  title: 'Dodge in the dark', // Title of the event
+  title: 'Dodge In The Dark', // Title of the event
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
@@ -1156,7 +1156,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 },
 '50': {
   id: '8', // Unique identifier for the event
-  title: 'Dodge in the dark', // Title of the event
+  title: 'Dodge In The Dark', // Title of the event
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
@@ -1175,7 +1175,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 },
 '51': {
   id: '8', // Unique identifier for the event
-  title: ' Song dedication', // Title of the event
+  title: ' Song Dedication', // Title of the event
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
@@ -1194,8 +1194,6 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 },
 
 }
-
-
 
 export const eventSlots = {
   '0': ['2', '17'],
