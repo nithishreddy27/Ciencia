@@ -429,7 +429,7 @@ Prompt Engineering for Photos (Game) is an innovative and creative event that ch
     id: '8',
     slotId: '6',
     title: 'Electro Maze: Circuit Treasure Challenge',
-    figureSrc: '/media/events/singing.jpeg',
+    figureSrc: '/media/events/24.png',
     day: 0,
    
     venue: 'To Be Decided',
@@ -461,7 +461,7 @@ Highlight Points:<br><br>
   '14': {
     id: '14',
     slotId: '5',
-    title: 'Tech Debates',
+    title: 'Tech Debate',
     figureSrc: '/media/events/19.png',
     day: 0,
   
@@ -488,7 +488,7 @@ Highlight Points:<br><br>
   '15': {
     id: '15',
     title: 'AI Escape',
-    figureSrc: '/media/events/opening.jpg',
+    figureSrc: '/media/events/22.png',
     day: 0,
     
     venue: 'To Be Decided',
@@ -518,7 +518,7 @@ Engaging in debates helps participants develop essential soft skills such as pub
   '16': {
     id: '16',
     title: 'Tech Word Quest',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/25.png',
     day: 0,
    
     venue: 'To Be Decided',
@@ -616,7 +616,7 @@ Engaging in debates helps participants develop essential soft skills such as pub
   '20': {
     id: '20',
     title: 'Robo Wars',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/26.png',
     day: 0,
    
     venue: 'To Be Decided',
@@ -637,7 +637,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '21': {
     id: '21',
     title: 'Civil Bidding',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/23.png',
     day: 0,
     
     venue: 'To Be Decided',
@@ -791,28 +791,6 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
     
     Participants will have the opportunity to engage in interactive lectures, hands-on labs, and group discussions led by experienced instructors with expertise in VLSI design and semiconductor engineering. By the end of the workshop, attendees will have gained practical skills and insights into VLSI design principles, enabling them to embark on projects and careers in the field of semiconductor technology. Whether you're a student, researcher, or industry professional, this workshop offers a valuable opportunity to explore the forefront of VLSI design and its applications in today's digital world.
     `
-},
-'29': {
-  id: '29',
-  title: 'Webinar with Isro Scientist',
-  figureSrc: '/media/events/dj.jpeg',
-  day: 0,
-  
-  venue: 'To Be Decided',
-  desc: '',
-  type: 'Event',
-  highlight: false
-},
-'30': {
-  id: '30',
-  title: 'Robot',
-  figureSrc: '/media/events/dj.jpeg',
-  day: 0,
- 
-  venue: 'To Be Decided',
-  desc: '',
-  type: 'Event',
-  highlight: false
 },
 
 '31': {
