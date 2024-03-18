@@ -70,7 +70,7 @@ const Gallery = ({ user }) => {
           
           <div className='Video'>
 
-            <Video embedId={'lzpBQ1SjY4o?si=eVCTycCG9v39dbxR'} />
+            <Video embedId={'1GQC4bKlclY?si=idcs9QAISmVOi-li'} />
           </div>
         </div>
         <br />
