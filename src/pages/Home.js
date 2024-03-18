@@ -50,7 +50,7 @@ const Home = ({ user }) => {
           </p>
           <div className={styles['header-btn-wrapper']}>
             <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>
-              <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Ciencia'22 in reels</span>
+              <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Ciencia'24 in reels</span>
               <span className={cx('btn-text', styles['intro-btn-text'])}>Gallery</span>
               <LinkIcon />
             </NavLink>
