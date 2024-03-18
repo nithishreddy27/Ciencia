@@ -124,7 +124,7 @@ export const events = {
     id: '3',
     slotId: '1',
     title: 'Paper Presentation',
-    figureSrc: '/media/paper_presentation.jpg',
+    figureSrc: '/media/events/3.png',
     day: 0,
  
     venue: 'To be Decided',
@@ -154,7 +154,7 @@ Perks<br>
     id: '4',
     slotId: '1',
     title: 'Project Expo',
-    figureSrc: '/media/events/face.jpg',
+    figureSrc: '/media/events/18.png',
     day: 0,
   
     venue: 'To Be Decided',
@@ -185,7 +185,7 @@ Perks<br>
   '5': {
     id: '5',
     title: 'Poster Presentation',
-    figureSrc: '/media/events/college-students-performance.jpg',
+    figureSrc: '/media/events/17.png',
     day: 0,
  
     venue: 'To Be Decided',
@@ -213,7 +213,7 @@ Perks<br>
   '6': {
     id: '6',
     title: 'Hackfusion',
-    figureSrc: '/media/events/band1.jpg',
+    figureSrc: '/media/events/15.png',
     day: 0,
  
     venue: 'To Be Decided',
@@ -242,7 +242,7 @@ Highlight Points:<br><br>
     id: '7',
     slotId: '2',
     title: 'SharkTank',
-    figureSrc: '/media/events/poetry.jpg',
+    figureSrc: '/media/events/4.png',
     day: 0,
   
     venue: 'To Be Decided',
@@ -273,7 +273,7 @@ Highlight Points:<br><br>
     id: '1',
     slotId: '2',
     title: 'Technical Quiz',
-    figureSrc: '/media/events/dance.jpeg',
+    figureSrc: '/media/events/5.png',
     day: 0,
     venue: 'To Be Decided',
     desc: '',
@@ -303,7 +303,7 @@ The Technical Quiz is an engaging and competitive event designed to test partici
     id: '9',
     slotId: '3',
     title: 'Webathon',
-    figureSrc: '/media/events/essay.jpg',
+    figureSrc: '/media/events/6.png',
     day: 0,
 
     venue: 'To Be Decided',
@@ -334,7 +334,7 @@ The Web Development Challenge is an intensive 6-hour event that puts participant
     id: '10',
     slotId: '4',
     title: 'Circuit Debugging',
-    figureSrc: '/media/events/sketch.jpg',
+    figureSrc: '/media/events/12.png',
     day: 0, 
     venue: 'To Be Decided',
     desc: '',
@@ -377,7 +377,7 @@ Circuit Debugging (Game) is an interactive and engaging event that combines elem
   '12': {
     id: '12',
     title: 'CityCrafters',
-    figureSrc: '/media/events/peasantry.jpeg',
+    figureSrc: '/media/events/7.png',
     day: 0,
 
     venue: 'To Be Decided',
@@ -404,7 +404,7 @@ Circuit Debugging (Game) is an interactive and engaging event that combines elem
   '13': {
     id: '13',
     title: 'ImagiPrompt: Ai inspired Photo Engineering Challenge',
-    figureSrc: '/media/events/tribe1.jpg',
+    figureSrc: '/media/events/10.png',
     day: 0,
 
     venue: 'To Be Decided',
@@ -462,7 +462,7 @@ Highlight Points:<br><br>
     id: '14',
     slotId: '5',
     title: 'Tech Debates',
-    figureSrc: '/media/events/3.png',
+    figureSrc: '/media/events/19.png',
     day: 0,
   
     venue: 'To Be Decided',
@@ -547,7 +547,7 @@ Engaging in debates helps participants develop essential soft skills such as pub
   '17': {
     id: '17',
     title: 'Game Dev Battle',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/14.png',
     day: 0,
 
     venue: 'To Be Decided',
@@ -560,7 +560,7 @@ Engaging in debates helps participants develop essential soft skills such as pub
   '18': {
     id: '18',
     title: 'Collaborative Coding',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/11.png',
     day: 0,
    
     venue: 'To Be Decided',
@@ -587,7 +587,7 @@ Engaging in debates helps participants develop essential soft skills such as pub
   '19': {
     id: '19',
     title: 'UI Design with Figma',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/8.png',
     day: 0,
     
     venue: 'To Be Decided',
@@ -651,7 +651,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '22': {
     id: '22',
     title: 'Engine Assembling',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/9.png',
     day: 0,
     
     venue: 'To Be Decided',
@@ -664,7 +664,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '23': {
     id: '23',
     title: 'Game Development Workshop',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/13.png',
     day: 0,
     venue: 'To Be Decided',
     desc: '',
@@ -673,21 +673,10 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
     registrationLink: '',
     highlight: false
   },
-  '24': {
-    id: '24',
-    title: 'VR/AR Workshop',
-    figureSrc: '/media/events/dj.jpeg',
-    day: 0,
-   
-    venue: 'To Be Decided',
-    desc: '',
-    type: 'Event',
-    highlight: false
-  },
   '25': {
     id: '25',
     title: 'Web Development Workshop',
-    figureSrc: '/media/cfc6.png',
+    figureSrc: '/media/events/21.png',
     day: 0,
     
     venue: 'To Be Decided',
@@ -716,7 +705,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '26': {
     id: '26',
     title: 'Langchain Workshop Online',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/16.png',
     day: 0,
    
     venue: 'To Be Decided',
@@ -745,7 +734,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '27': {
     id: '27',
     title: '3D Printing Software Workshop',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/2.png',
     day: 0,
   
     venue: 'To Be Decided',
@@ -775,7 +764,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '28': {
     id: '28',
     title: 'VLSI Workshop',
-    figureSrc: '/media/events/dj.jpeg',
+    figureSrc: '/media/events/20.png',
     day: 0,
     
     venue: 'To Be Decided',
