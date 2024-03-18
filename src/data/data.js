@@ -462,7 +462,7 @@ Highlight Points:<br><br>
     id: '14',
     slotId: '5',
     title: 'Tech Debates',
-    figureSrc: '/media/events/peasantry.jpeg',
+    figureSrc: '/media/events/3.png',
     day: 0,
   
     venue: 'To Be Decided',
