@@ -933,17 +933,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event // Registration link for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  Its a funny game where a group of 6 friends play together, where one of them will be blind folded and rest of them will have the ducks tied to their legs. the blind folded person need to find the person by recognizing the sound.			
   ` // Popup content with detailed description and perks of participating
 },'39': {
   id: '8', // Unique identifier for the event
@@ -951,17 +946,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  Mini remote control racing cars are driven in a specified tracks and the lap time will be noted and prize money will be given based on that.
   ` // Popup content with detailed description and perks of participating
 },
 '40': {
@@ -970,17 +960,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  A dark room filled with terrifying objects and cos played ghosts which gives thrills and chills 
   ` // Popup content with detailed description and perks of participating
 },
 '41': {
@@ -989,17 +974,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  Different board games will be arranged in the room
   ` // Popup content with detailed description and perks of participating
 },
 '42': {
@@ -1008,17 +988,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  Dart, archery and mini basket ball
   ` // Popup content with detailed description and perks of participating
 },
 '43': {
@@ -1027,17 +1002,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  A group of people play around the chairs to be seated first in a decreasing order
   ` // Popup content with detailed description and perks of participating
 },
 '44': {
@@ -1046,17 +1016,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  Resembles the real auction as a game
   ` // Popup content with detailed description and perks of participating
 },
 '45': {
@@ -1065,17 +1030,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  There will be three doors and you have to find the right one to get out 
   ` // Popup content with detailed description and perks of participating
 },
 '46': {
@@ -1084,17 +1044,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  Player needs to hit the ball placed on the stumps
   ` // Popup content with detailed description and perks of participating
 },
 '47': {
@@ -1103,17 +1058,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  Tug of war between two teams
   ` // Popup content with detailed description and perks of participating
 },
 '48': {
@@ -1122,17 +1072,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  Blind guess, lip don’t lie and knockdown challenge
   ` // Popup content with detailed description and perks of participating
 },
 '49': {
@@ -1141,8 +1086,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
@@ -1160,17 +1104,12 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  Not a typical dodgeball game; it's a thrilling fusion of darkness, glowing radium balls, and pulsating music that promises to be a highlight of our college fest. A group of 5-6 participants steps into a specially designed darkroom, armed only with spongy radium balls painted with radiant colours that will be their sole source of visibility in the pitch-black surroundings. 
   ` // Popup content with detailed description and perks of participating
 },
 '51': {
@@ -1179,17 +1118,26 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   figureSrc: '/media/events/special-event1.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
-  registrationLink: 'https://forms.gle/eUGhue9nSsDcwZek6', // Registration link for the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
   popupContent: `Description:<br><br>
-  Description of Special Event 1.<br><br>
-  Perks of Participating:<br><br>
-  1. Benefit 1<br>
-  2. Benefit 2<br>
-  3. Benefit 3<br>
+  Dedicate a song to your friends 
+  ` // Popup content with detailed description and perks of participating
+},
+'52': {
+  id: '8', // Unique identifier for the event
+  title: 'Neon Room', // Title of the event
+  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
+  venue: 'To Be Decided', // Venue of the event
+  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
+  desc: 'Description of Special Event 1', // Description of the event
+  type: 'Special Event', // Type of the event
+  highlight: false, // Boolean indicating if the event should be highlighted
+  popupContent: `Description:<br><br>
+  In the dark room, group of people will enter the room and enjoy with neon paints
   ` // Popup content with detailed description and perks of participating
 },
 
