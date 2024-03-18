@@ -68,13 +68,13 @@ const Events = ({ user }) => {
         </h1>
         <div className={cx(styles['header-btn-wrapper'])}>
           <NavLink to="/gallery" className={cx('btn', styles['intro-header-btn'])}>
-            <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Ciencia2k22 in reels</span>
+            <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Ciencia2k24 in reels</span>
             <span className={cx('btn-text', styles['intro-btn-text'])}>Gallery</span>
           </NavLink>
         </div>
         <div className={cx('subtitle', styles['header-subtitle'])}>
           <h2>March.21-22</h2>
-          <div>2024</div>
+          <div>Ciencia2k24</div>
         </div>
       </header>
       <main className={cx(styles['main-content'])}>
