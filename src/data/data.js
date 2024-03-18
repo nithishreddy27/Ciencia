@@ -155,7 +155,7 @@ Perks<br>
     id: '4',
     slotId: '1',
     title: 'Project Expo',
-    figureSrc: '/media/events/18.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710746033/xk26ur9tqyloz4lq2kj2.png',
     day: 0,
   
     venue: 'To Be Decided',
@@ -186,7 +186,7 @@ Perks<br>
   '5': {
     id: '5',
     title: 'Poster Presentation',
-    figureSrc: '/media/events/17.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710746025/x1hgysycmx0pzy5ynqwy.png',
     day: 0,
  
     venue: 'To Be Decided',
@@ -214,7 +214,7 @@ Perks<br>
   '6': {
     id: '6',
     title: 'Hackfusion',
-    figureSrc: '/media/events/15.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745965/hkpwaj0neasuw8iea4xh.png',
     day: 0,
  
     venue: 'To Be Decided',
@@ -243,7 +243,7 @@ Highlight Points:<br><br>
     id: '7',
     slotId: '2',
     title: 'SharkTank',
-    figureSrc: '/media/events/4.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745962/bh4yivpl00i6qavve1g0.png',
     day: 0,
   
     venue: 'To Be Decided',
@@ -274,7 +274,7 @@ Highlight Points:<br><br>
     id: '1',
     slotId: '2',
     title: 'Technical Quiz',
-    figureSrc: '/media/events/5.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745935/toz7jodvbexmlzubzjod.png',
     day: 0,
     venue: 'To Be Decided',
     desc: '',
@@ -304,7 +304,7 @@ The Technical Quiz is an engaging and competitive event designed to test partici
     id: '9',
     slotId: '3',
     title: 'Webathon',
-    figureSrc: '/media/events/6.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745929/htyog6xnxrqormwjwjw0.png',
     day: 0,
 
     venue: 'To Be Decided',
@@ -335,7 +335,7 @@ The Web Development Challenge is an intensive 6-hour event that puts participant
     id: '10',
     slotId: '4',
     title: 'Circuit Debugging',
-    figureSrc: '/media/events/12.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745967/sqkhu972o3asql9mb41o.png',
     day: 0, 
     venue: 'To Be Decided',
     desc: '',
@@ -378,7 +378,7 @@ Circuit Debugging (Game) is an interactive and engaging event that combines elem
   '12': {
     id: '12',
     title: 'CityCrafters',
-    figureSrc: '/media/events/7.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745933/ggfoio5id1eu620h68ax.png',
     day: 0,
 
     venue: 'To Be Decided',
@@ -405,7 +405,7 @@ Circuit Debugging (Game) is an interactive and engaging event that combines elem
   '13': {
     id: '13',
     title: 'ImagiPrompt: Ai inspired Photo Engineering Challenge',
-    figureSrc: '/media/events/10.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745953/g5gamvakpon8eytb76u2.png',
     day: 0,
 
     venue: 'To Be Decided',
@@ -430,7 +430,7 @@ Prompt Engineering for Photos (Game) is an innovative and creative event that ch
     id: '8',
     slotId: '6',
     title: 'Electro Maze: Circuit Treasure Challenge',
-    figureSrc: '/media/events/24.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745910/m8h2if2shnrzxumeqmfa.png',
     day: 0,
    
     venue: 'To Be Decided',
@@ -463,7 +463,7 @@ Highlight Points:<br><br>
     id: '14',
     slotId: '5',
     title: 'Tech Debate',
-    figureSrc: '/media/events/19.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745974/w89vhp0ho5i2rzlwfkff.png',
     day: 0,
   
     venue: 'To Be Decided',
@@ -489,7 +489,7 @@ Highlight Points:<br><br>
   '15': {
     id: '15',
     title: 'AI Escape',
-    figureSrc: '/media/events/22.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745886/gu2jvsjmrb95dtbpthx9.png',
     day: 0,
     
     venue: 'To Be Decided',
@@ -519,7 +519,7 @@ Engaging in debates helps participants develop essential soft skills such as pub
   '16': {
     id: '16',
     title: 'Tech Word Quest',
-    figureSrc: '/media/events/25.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745897/vzr45g2qxsnpjca0pyft.png',
     day: 0,
    
     venue: 'To Be Decided',
@@ -548,7 +548,7 @@ Engaging in debates helps participants develop essential soft skills such as pub
   '17': {
     id: '17',
     title: 'Game Dev Battle',
-    figureSrc: '/media/events/14.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710746051/ihvv1afvidy5yemakgw4.png',
     day: 0,
 
     venue: 'To Be Decided',
@@ -561,7 +561,7 @@ Engaging in debates helps participants develop essential soft skills such as pub
   '18': {
     id: '18',
     title: 'Collaborative Coding',
-    figureSrc: '/media/events/11.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745959/oaqvurqzihpbjiihvg72.png',
     day: 0,
    
     venue: 'To Be Decided',
@@ -588,7 +588,7 @@ Engaging in debates helps participants develop essential soft skills such as pub
   '19': {
     id: '19',
     title: 'UI Design with Figma',
-    figureSrc: '/media/events/8.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745961/u02vy8iqlxc9qaydrazw.png',
     day: 0,
     
     venue: 'To Be Decided',
@@ -617,7 +617,7 @@ Engaging in debates helps participants develop essential soft skills such as pub
   '20': {
     id: '20',
     title: 'Robo Wars',
-    figureSrc: '/media/events/26.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745741/ikqgjwzaxgbko6dvstst.png',
     day: 0,
    
     venue: 'To Be Decided',
@@ -638,7 +638,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '21': {
     id: '21',
     title: 'Civil Bidding',
-    figureSrc: '/media/events/23.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745883/d3r40olhtbsfujlanadk.png',
     day: 0,
     
     venue: 'To Be Decided',
@@ -652,7 +652,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '22': {
     id: '22',
     title: 'Engine Assembling',
-    figureSrc: '/media/events/9.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745973/ry3wnvmbsyzzpnvncqnt.png',
     day: 0,
     
     venue: 'To Be Decided',
@@ -665,7 +665,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '23': {
     id: '23',
     title: 'Game Development Workshop',
-    figureSrc: '/media/events/13.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745968/ppgj4tfwb6hjejurbjek.png',
     day: 0,
     venue: 'To Be Decided',
     desc: '',
@@ -677,7 +677,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '25': {
     id: '25',
     title: 'Web Development Workshop',
-    figureSrc: '/media/events/21.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745982/lml4p9pbvcvtv9x529vs.png',
     day: 0,
     
     venue: 'To Be Decided',
@@ -706,7 +706,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '26': {
     id: '26',
     title: 'Langchain Workshop Online',
-    figureSrc: '/media/events/16.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745981/ksdjquzydrai3odnsujz.png',
     day: 0,
    
     venue: 'To Be Decided',
@@ -735,7 +735,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '27': {
     id: '27',
     title: '3D Printing Software Workshop',
-    figureSrc: '/media/events/2.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745933/hnwt803bglzocn1fllhi.png',
     day: 0,
   
     venue: 'To Be Decided',
@@ -765,7 +765,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   '28': {
     id: '28',
     title: 'VLSI Workshop',
-    figureSrc: '/media/events/20.png',
+    figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745986/ubk4s8fdyfgjitvql7sj.png',
     day: 0,
     
     venue: 'To Be Decided',
@@ -1129,7 +1129,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 '52': {
   id: '8', // Unique identifier for the event
   title: 'Neon Room', // Title of the event
-  figureSrc: 'https://i.ibb.co/429dCrH/22.png', // Image source for the event
+  figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710745469/dmxdfkzoxtyczf13nz2w.jpg', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
   isRegistrationOpen: false, // Boolean indicating if registration is open for the event
