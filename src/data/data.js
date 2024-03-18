@@ -1129,7 +1129,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 '52': {
   id: '8', // Unique identifier for the event
   title: 'Neon Room', // Title of the event
-  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  figureSrc: 'https://i.ibb.co/429dCrH/22.png', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
   isRegistrationOpen: false, // Boolean indicating if registration is open for the event
@@ -1140,7 +1140,6 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
   In the dark room, group of people will enter the room and enjoy with neon paints
   ` // Popup content with detailed description and perks of participating
 },
-
 }
 
 export const eventSlots = {
