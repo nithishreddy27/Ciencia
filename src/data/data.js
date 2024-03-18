@@ -21,7 +21,7 @@ export const coordinators = [
   { name: 'Jai Kumar,', roll: 'ME/20/06', phone: '7032703600', email: 'debia.btech.me.20@nitap.ac.in' },
   { name: 'Y. V. Sridhar,', roll: 'ECE/20/07', phone: '9959028650', email: 'yania.btech.ece.20@nitap.ac.in' },
   { name: 'Aakash Kota ,', roll: 'ECE/20/24', phone: '9398347519', email: 'dolly.btech.ece.20@nitap.ac.in' },
-  { name: 'G. Rohith,', roll: 'ECE/20/24', phone: '7013399629', email: 'dolly.btech.ece.20@nitap.ac.in' },
+  { name: 'Rohith Gajawada,', roll: 'CSIT/21/36', phone: '7013399629', email: 'dolly.btech.ece.20@nitap.ac.in' },
   { name: 'Yavvari Naveen,', roll: 'ECE/20/24', phone: '7075552997', email: 'dolly.btech.ece.20@nitap.ac.in' },
   { name: 'Meda Saketh,', roll: 'ECE/20/24', phone: '8179867305', email: 'dolly.btech.ece.20@nitap.ac.in' },
   { name: 'K. Mamanth,', roll: 'ECE/20/24', phone: '9959110048', email: 'dolly.btech.ece.20@nitap.ac.in' },
