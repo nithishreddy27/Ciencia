@@ -65,6 +65,7 @@ const Navigation = ({ user }) => {
               {...{ link: '/admin', name: 'Admin' }} /></li>
           )}
         </ul>
+        
         <div className={styles['nav-footer']}>
           &copy;2024 Ciencia CVRCOE
         </div>
