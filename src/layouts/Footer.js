@@ -32,9 +32,10 @@ const Footer = () => {
             {!isMobile && <div className={styles.quotes}>Ciencia 2k24</div>}
           </div>
 
-          <div>
-            <div className={styles.LogoContainer}>
-              <div className={styles.title}>Ciencia2k24</div>
+          <div className={styles.LogoContainer}>
+            {/* Apply inline CSS for centering text in mobile */}
+            <div className={cx(styles.title, { [styles.centered]: isMobile })} style={{ textAlign: isMobile ? 'center' : 'left', marginLeft: isMobile ? '150px' : '110px' }}>
+              Ciencia2k24
             </div>
           </div>
         </div>
