@@ -797,7 +797,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 '31': {
   id: '8', // Unique identifier for the event
   title: 'VR Valley', // Title of the event
-  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710821689/lgnaqpmddt8dheok3qq0.png', // Image source for the event
   day: 2, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
   isRegistrationOpen: true, // Boolean indicating if registration is open for the event
@@ -1013,10 +1013,10 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 '44': {
   id: '8', // Unique identifier for the event
   title: 'IPL Auction', // Title of the event
-  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710821689/lgnaqpmddt8dheok3qq0.png', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted

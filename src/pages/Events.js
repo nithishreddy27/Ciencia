@@ -141,7 +141,7 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
       >
         <div className={styles.title}>
           {title === 'Paper Presentation' && !isRegistrationOpen ? (
-            <p>Registration Closed</p>
+            <p>Registration Closed!!</p>
           ) : (
             <div>
               {isRegistrationOpen ? (
@@ -264,6 +264,7 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
     </li>
   );
 };
+
 
 const EventFigure = ({ id, title, figureSrc, isActive = false }) => (
   figureSrc && (

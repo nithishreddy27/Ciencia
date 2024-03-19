@@ -34,7 +34,7 @@ const renderIntroContent = () => {
         <span style={{ marginRight: '3ch' }}>Ciencia</span>
         <span className={styles._ar}>2k24</span>
       </h2>
-      <p className={styles.subtitle} style={{ marginBottom: '-40px' }}> {/* Adjust margin bottom */}
+      <p className={styles.subtitle} style={{ marginBottom: '-40px' }}>
         CIENCIA, a National-level technical symposium by CVR College of Engineering, 
         has transformed into a phenomenon, elevating CVRCE to fame and excellence. CIENCIA returns bigger, 
         showcasing innovative events for all branches. With programming, analytical, and technical quizzes, 
@@ -75,7 +75,14 @@ const Home = ({ user }) => {
         </header>
         <main>
           <div className={styles.hlgallery}>
-            {highlights.map(id => <HighlightCard user={user} key={id} {...events[id]} />)}
+            {highlights.map(id => (
+              <HighlightCard
+                user={user}
+                key={id}
+                {...events[id]}
+                style={{ maxWidth: '100%', marginBottom: '1rem' }} // Adjusted style for HighlightCard
+              />
+            ))}
             <div className={styles['btn-wrapper']}>
               <NavLink to='/events' className='btn'>
                 <span className='btn-subtitle'>Events</span>
