@@ -443,23 +443,9 @@ Prompt Engineering for Photos (Game) is an innovative and creative event that ch
     isRegistrationOpen: false,
     registrationLink: '',
     solo: true,
-    popupContent: `<strong>Description:</strong><br><br>
-Electro Maze: Circuit Treasure Hunt is an exhilarating and interactive event that combines the thrill of a treasure hunt with the excitement of circuit building. Participants are tasked with deciphering clues and navigating through various locations within the college campus to locate hidden circuit components. Once found, participants must collect these components and assemble them to build functional circuits according to provided schematics or instructions.<br><br>
-
-<strong>Perks of Participating:</strong><br><br>
-1. Problem-solving Skills Development<br>
-2. Hands-on Circuit Building Experience<br>
-3. Teamwork and Collaboration Enhancement<br>
-4. Critical Thinking Under Pressure<br>
-5. Practical Application of Electrical Engineering Concepts<br><br>
-
-Highlight Points:<br><br>
-1. Puzzle Solving and Critical Thinking: Participants must employ their problem-solving skills and critical thinking abilities to decode clues and solve puzzles that lead them to the hidden circuit components. The event challenges participants to think creatively and strategically as they unravel each clue and navigate through the maze-like layout of the college campus.<br>
-2. Hands-On Circuit Building: Electro Maze offers participants a hands-on experience in circuit building and electronics. Upon locating the circuit components, participants must correctly assemble them according to provided schematics or instructions, requiring precision, attention to detail, and technical proficiency.<br>
-3. Teamwork and Collaboration: Participants may form teams to collaborate and work together to decipher clues, navigate the campus, and assemble circuits. Teamwork fosters communication, coordination, and cooperation among participants, enhancing the overall experience and promoting camaraderie.<br>
-4. Exploration and Engagement: The event encourages participants to explore different areas of the college campus in search of hidden circuit components, fostering engagement and interaction with the campus environment. Participants gain a deeper appreciation for their surroundings while actively participating in a challenging and immersive activity.<br>
-5. Competition and Rewards: Electro Maze may incorporate elements of competition, with teams competing against each other to be the first to successfully locate and assemble all the circuits. Rewards and recognition are awarded to top-performing teams, adding excitement and motivation for participants to showcase their skills and teamwork.<br>`
-
+    popupContent: `<strong>Summary:</strong>
+<br /><br />
+    Electro Maze: Circuit Treasure Hunt is an engaging event merging the excitement of a treasure hunt with circuit building on college campuses. Participants decipher clues to locate hidden circuit components, then assemble them into functional circuits. Key benefits include honing problem-solving skills, hands-on circuit building experience, teamwork enhancement, critical thinking development, and practical application of electrical engineering concepts. The event highlights puzzle-solving and critical thinking, hands-on circuit construction, teamwork and collaboration, campus exploration, and competition with rewards for top-performing teams.`
     
   },
   '14': {
