@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
         <div className={styles.createdBy} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '20px' }}>
   <span style={{ marginRight: '10px', fontWeight: 'bold' }}>Created by:</span>
-  <a href="https://rohithgajawada.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'underline' }}>Rohith Gajawada</a>
+  <a href="https://www.linkedin.com/in/rohith-gajawada-tech-intense/" target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'underline' }}>Rohith Gajawada</a>
   <span style={{ margin: '0 5px' }}>and</span>
   <a href="https://www.linkedin.com/in/aakash-kota-177004185/" target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'underline' }}>Akash Kota</a>
 </div>
