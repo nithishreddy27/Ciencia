@@ -261,9 +261,10 @@
     position: relative;
     border-top-right-radius: 3rem;
     overflow: hidden;
-    height: 25rem;
+    max-width: calc(100% - 1rem); // Adjusted max-width to fit within the screen
+    height: 25rem; // Initial height
 
-    >figure {
+    > figure {
         position: absolute;
         top: 0;
         left: 0;
@@ -271,7 +272,7 @@
         height: 100%;
         overflow: hidden;
 
-        >img {
+        > img {
             position: absolute;
             top: 0;
             left: 0;
@@ -281,7 +282,7 @@
         }
     }
 
-    >figure::before {
+    > figure::before {
         content: '';
         display: block;
         position: absolute;
@@ -291,11 +292,11 @@
         height: 100%;
         background: linear-gradient(180deg, rgba(31, 31, 31, 0) 0%, rgba(31, 31, 31, 0.6) 100%);
         z-index: 20;
-        transition: opacity .3s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transition: opacity 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
         opacity: 1;
     }
 
-    >figure:after {
+    > figure:after {
         content: '';
         display: block;
         position: absolute;
@@ -305,15 +306,14 @@
         height: 100%;
         background: linear-gradient(180deg, rgba(255, 147, 173, 0) 0%, rgba(255, 147, 173, 0.6) 100%);
         z-index: 21;
-        transition: opacity .3s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transition: opacity 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
         opacity: 0;
     }
 
-
-    >main {
+    > main {
         position: absolute;
         bottom: 0;
-        padding: 1.25rem .9375rem;
+        padding: 1.25rem 0.9375rem;
         z-index: 22;
         color: white;
         font-family: "Roboto", sans-serif;
@@ -330,40 +330,27 @@
     }
 
     @media screen and (max-width: 700px) {
-        height: 18.75rem;
+        height: 18.75rem; // Adjusted height for smaller screens
+        max-width: calc(100% - 0.625rem); // Adjusted max-width for smaller screens
 
-        >main {
+        > main {
             .cardTitle {
-                font-size: 20px;
-            }
-
-            .cardSubtitle {
-                font-size: 0.75rem;
+                font-size: 20px; // Adjusted font size for smaller screens
             }
         }
     }
 
     @media screen and (min-width: 1000px) {
-        height: 40vw;
+        height: 40vw; // Adjusted height for larger screens
     }
 }
 
 .card:hover {
-    >figure::after {
+    > figure::after {
         opacity: 1;
     }
 }
-// Home.module.scss
 
-.event-image {
-    border-radius: 8px; // Adjust the value as needed for the desired border radius
-    max-width: 100%; // Add this line to ensure the image doesn't exceed its container
-}
-
-.event-image.original-size {
-    width: auto;
-    height: auto;
-}
 
 // Last section -- Our team
 .coordinators {

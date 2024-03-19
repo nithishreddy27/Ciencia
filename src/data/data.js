@@ -132,8 +132,8 @@ export const events = {
     desc: '',
     type: 'Contest',
     highlight: false,
-    isRegistrationOpen: true,
-    registrationLink:'https://docs.google.com/forms/d/e/1FAIpQLSckSJgkLI5c1hsOawIx32ucYmJjB67xa89sROCi9OogAu6qSQ/viewform?usp=sf_link', 
+    isRegistrationOpen: false,
+    //registrationLink:'https://docs.google.com/forms/d/e/1FAIpQLSckSJgkLI5c1hsOawIx32ucYmJjB67xa89sROCi9OogAu6qSQ/viewform?usp=sf_link', 
     popupContent: `Description:<br>
 The Paper Presentation event is an exciting opportunity for students to showcase their research prowess and intellectual abilities. Participants are required to delve into a topic of their choice, conduct thorough research, and articulate their findings in a comprehensive research paper. On the day of the event, participants will present their papers to a panel of judges and peers, fostering an environment of scholarly exchange and critical thinking.<br><br>
 
@@ -1013,10 +1013,10 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 '44': {
   id: '8', // Unique identifier for the event
   title: 'IPL Auction', // Title of the event
-  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710821689/lgnaqpmddt8dheok3qq0.png', // Image source for the event
   day: 1, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
-  isRegistrationOpen: false, // Boolean indicating if registration is open for the event
+  isRegistrationOpen: true, // Boolean indicating if registration is open for the event
   desc: 'Description of Special Event 1', // Description of the event
   type: 'Special Event', // Type of the event
   highlight: false, // Boolean indicating if the event should be highlighted
