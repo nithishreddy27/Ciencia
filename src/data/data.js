@@ -31,8 +31,11 @@ export const coordinators = [
   { name: 'T. Sai Krishna Teja,', roll: 'ECE/20/24', phone: '9347842364', email: 'dolly.btech.ece.20@nitap.ac.in' },
   { name: 'G. Badri Narayana,', roll: 'ECE/20/24', phone: '7680095423', email: 'dolly.btech.ece.20@nitap.ac.in' },
   { name: 'N. Umesh Krishna ,', roll: 'ECE/20/24', phone: '7995640992', email: 'dolly.btech.ece.20@nitap.ac.in' },
-  {name:'R Pranay Naik.', roll:'ECE/20/22',phone:'8186978747',email:'abc@gmail.com'},
-  
+  {name:'R Pranay Naik ,', roll:'ECE/20/22',phone:'8186978747',email:'abc@gmail.com'},
+  {name:'Gagan Preetham ,', roll:'IT/21/12',phone:'8186978747',email:'abc@gmail.com'},
+  {name:'Vinay Naik ,', roll:'ECE/20/22',phone:'8186978747',email:'abc@gmail.com'},
+  {name:'Mani Teja ,', roll:'ECE/20/22',phone:'8186978747',email:'abc@gmail.com'},
+  {name:'Bhanu Teja ', roll:'IT/21/72',phone:'8186978747',email:'abc@gmail.com'},
 ]
 
 export const mainCoordinators = [
