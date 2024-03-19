@@ -65,7 +65,7 @@ const Navigation = ({ user }) => {
               {...{ link: '/admin', name: 'Admin' }} /></li>
           )}
         </ul>
-        <marquee behavior="scroll" direction="left">Your scrolling text goes here...</marquee>
+        
         <div className={styles['nav-footer']}>
           &copy;2024 Ciencia CVRCOE
         </div>
