@@ -59,8 +59,8 @@ const Home = ({ user }) => {
       exit={{ opacity: 0 }}
     >
       <Hero />
-      <marquee behavior="scroll" direction="left"  style={{fontSize: "28px",  paddingTop: "2.5rem"}}>
-                ID Cards are mandatory to enter the venue and participate
+      <marquee behavior="scroll" direction="left"  style={{fontSize: "30px",  paddingTop: "3.5rem", color:"Red"}}>
+              **NOTE:  ID Cards are mandatory to enter the venue and participate
             </marquee><br/><br/><br/><br/>
       <section className={cx(styles["intro-section"], styles['home-section'])}>
         {renderTags()}
