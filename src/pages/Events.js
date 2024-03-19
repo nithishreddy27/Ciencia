@@ -140,47 +140,53 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
         }}
       >
         <div className={styles.title}>
-  {isRegistrationOpen ? (
-    <button
-      className={cx(styles['register-now-button'], 'button-23')}
-      style={{
-        backgroundColor: '#FFFFFF',
-        border: '1px solid #222222',
-        borderRadius: '8px',
-        boxSizing: 'border-box',
-        color: '#222222',
-        cursor: 'pointer',
-        display: 'inline-block',
-        fontFamily: 'Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif',
-        fontSize: '16px',
-        fontWeight: '600',
-        lineHeight: '20px',
-        margin: '0',
-        outline: 'none',
-        padding: '13px 23px',
-        position: 'relative',
-        textAlign: 'center',
-        textDecoration: 'none',
-        touchAction: 'manipulation',
-        transition: 'box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s',
-        userSelect: 'none',
-        WebkitUserSelect: 'none',
-        width: 'auto'
-      }}
-      onClick={() => {
-        if (isRegistrationOpen && registrationLink) {
-          // Open the registration link in a new tab
-          window.open(registrationLink, '_blank');
-        }
-      }}
-    >
-      Register Now
-    </button>
-  ) : (
-    <p>Registrations Closed</p>
-  )}
-  <h4>{time}</h4>
-</div>
+          {title === 'Paper Presentation' && !isRegistrationOpen ? (
+            <p>Registration Closed</p>
+          ) : (
+            <div>
+              {isRegistrationOpen ? (
+                <button
+                  className={cx(styles['register-now-button'], 'button-23')}
+                  style={{
+                    backgroundColor: '#FFFFFF',
+                    border: '1px solid #222222',
+                    borderRadius: '8px',
+                    boxSizing: 'border-box',
+                    color: '#222222',
+                    cursor: 'pointer',
+                    display: 'inline-block',
+                    fontFamily: 'Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif',
+                    fontSize: '16px',
+                    fontWeight: '600',
+                    lineHeight: '20px',
+                    margin: '0',
+                    outline: 'none',
+                    padding: '13px 23px',
+                    position: 'relative',
+                    textAlign: 'center',
+                    textDecoration: 'none',
+                    touchAction: 'manipulation',
+                    transition: 'box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s',
+                    userSelect: 'none',
+                    WebkitUserSelect: 'none',
+                    width: 'auto'
+                  }}
+                  onClick={() => {
+                    if (isRegistrationOpen && registrationLink) {
+                      // Open the registration link in a new tab
+                      window.open(registrationLink, '_blank');
+                    }
+                  }}
+                >
+                  Register Now
+                </button>
+              ) : (
+                <p>Registrations will be onsite!</p>
+              )}
+            </div>
+          )}
+          <h4>{time}</h4>
+        </div>
 
         <div className={styles.time}>
           <p style={{ marginRight: '1rem', marginTop: '1rem' }}>{title}</p>
@@ -215,7 +221,6 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
           >
             Know More
           </button>
-          
         </div>
       </article>
       {showPopup && (
@@ -259,7 +264,6 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
     </li>
   );
 };
-
 
 const EventFigure = ({ id, title, figureSrc, isActive = false }) => (
   figureSrc && (
