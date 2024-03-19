@@ -796,6 +796,30 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
     Participants will have the opportunity to engage in interactive lectures, hands-on labs, and group discussions led by experienced instructors with expertise in VLSI design and semiconductor engineering. By the end of the workshop, attendees will have gained practical skills and insights into VLSI design principles, enabling them to embark on projects and careers in the field of semiconductor technology. Whether you're a student, researcher, or industry professional, this workshop offers a valuable opportunity to explore the forefront of VLSI design and its applications in today's digital world.
     `
 },
+'53': {
+  id: '171',
+  title: 'Code & Chaos',
+  figureSrc: '',
+  day: 0,
+
+  venue: 'To Be Decided',
+  desc: '',
+  type: 'Event',
+  isRegistrationOpen: true,
+  registrationLink: '',
+  highlight: false,
+  popupContent: `<strong>Description</strong>
+<br /><br />
+  <strong>Round 1:</strong>
+  A round mixed with both technical and non-technical activities. Technical activities includes code writing for some problems given to them. Non-technical activities includes best Chess move, tic tac toe, garlic peeling, some chores etc.
+  <br /><br />
+  These activities are changed from technical to non-technical and vice versa every 3 mins for a total duration of 12 mins for every participant. Non-tech activities are selected by RNG where the participant select a random paper with a task. 
+  <br /><br />
+  The top participants who completed these tasks and the coding questions the fast will be qualified for round 2.
+  <br /> <br />
+  <strong>Round 2:</strong>
+  Round 2 will be a buzzer round with technical and GK questions of 10Q-15Q based on the shortlist number from round 1. Prizes will be distributed accordingly.`
+},
 
 '31': {
   id: '8', // Unique identifier for the event
