@@ -132,7 +132,7 @@ export const events = {
     desc: '',
     type: 'Contest',
     highlight: false,
-    isRegistrationOpen: true,
+    isRegistrationOpen: false,
     registrationLink:'https://docs.google.com/forms/d/e/1FAIpQLSckSJgkLI5c1hsOawIx32ucYmJjB67xa89sROCi9OogAu6qSQ/viewform?usp=sf_link', 
     popupContent: `Description:<br>
 The Paper Presentation event is an exciting opportunity for students to showcase their research prowess and intellectual abilities. Participants are required to delve into a topic of their choice, conduct thorough research, and articulate their findings in a comprehensive research paper. On the day of the event, participants will present their papers to a panel of judges and peers, fostering an environment of scholarly exchange and critical thinking.<br><br>
