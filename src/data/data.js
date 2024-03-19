@@ -797,7 +797,7 @@ Robo Wars, also known as Battle Bots, is an exhilarating competition where two r
 '31': {
   id: '8', // Unique identifier for the event
   title: 'VR Valley', // Title of the event
-  figureSrc: '/media/events/special-event1.jpg', // Image source for the event
+  figureSrc: 'https://res.cloudinary.com/dfwalrnrt/image/upload/v1710821689/lgnaqpmddt8dheok3qq0.png', // Image source for the event
   day: 2, // Day index for the event (ensure it corresponds to the correct day for special events)
   venue: 'To Be Decided', // Venue of the event
   isRegistrationOpen: true, // Boolean indicating if registration is open for the event
