@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import cx from 'classnames';
 import styles from '../styles/Home.module.scss';
@@ -9,6 +10,7 @@ import { events, highlights } from '../data/data';
 import { mainCoordinators, coordinators } from '../data/data';
 import Hero from '../components/Hero';
 import { motion } from 'framer-motion';
+import ReactGA from 'react-ga'; // Import ReactGA
 
 const tags = [
   'Flashmob', 'fun', 'poetry', 'face painting', 'solo song', 'dance', 'essay', 'sketching',
@@ -52,6 +54,11 @@ const renderIntroContent = () => {
 };
 
 const Home = ({ user }) => {
+  useEffect(() => {
+    ReactGA.initialize('G-TBB5CS1QL7');
+    ReactGA.pageview(window.location.pathname + window.location.search); // Track pageview when component mounts
+  }, []);
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -60,8 +67,8 @@ const Home = ({ user }) => {
     >
       <Hero />
       <marquee behavior="scroll" direction="left"  style={{fontSize: "30px",  paddingTop: "3.5rem", color:"Red"}}>
-              **NOTE:  ID Cards are mandatory to enter the venue and participate
-            </marquee><br/><br/><br/><br/>
+        **NOTE:  ID Cards are mandatory to enter the venue and participate
+      </marquee><br/><br/><br/><br/>
       <section className={cx(styles["intro-section"], styles['home-section'])}>
         {renderTags()}
         {renderIntroContent()}
