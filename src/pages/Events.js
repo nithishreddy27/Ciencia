@@ -177,7 +177,7 @@ const EventCard = ({ id, title, isRegistrationOpen, venue, time, handleHover, re
       Register Now
     </button>
   ) : (
-    <p>Registrations will be onsite!</p>
+    <p>Registrations Closed</p>
   )}
   <h4>{time}</h4>
 </div>
