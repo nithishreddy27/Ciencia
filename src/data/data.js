@@ -47,7 +47,7 @@ export const mainCoordinators = [
   {
     name: 'Dr. S. Harivardhagini',
     imgSrc: 'https://i.ibb.co/Jn1xp9H/9.png',
-    roles: ['Prof. & Head, EIE', 'Co-Convener', 'Backend']
+    roles: ['Prof. & Head, EIE', 'Co-Convener']
   },
   {
     name: 'Dr. K. Shashidhar Reddy',
